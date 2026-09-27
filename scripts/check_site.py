@@ -214,7 +214,7 @@ for lang in ('zh', 'en'):
         if not all(profile['url'] in parsed.links for profile in config['profiles']):
             errors.append(f'Missing academic profile link: {file}')
         for locale in ('zh', 'en'):
-            if not any(link.endswith(f'files/cv-{locale}.docx') for link in parsed.links):
+            if not any(link.endswith(f'files/cv-{locale}.pdf') for link in parsed.links):
                 errors.append(f'Missing {locale} CV download: {file}')
 for paper in papers:
     bib = DIST / 'files/citations' / (paper['id'] + '.bib')
