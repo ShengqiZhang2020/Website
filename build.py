@@ -115,7 +115,7 @@ def heading(text, id=''):
 
 def home(lang, current):
     name = tr(P['name'], lang)
-    intro_paragraphs = [tr(P[key], lang) for key in ('home_intro', 'home_research', 'home_background')]
+    intro_paragraphs = [tr(P[key], lang) for key in ('home_intro', 'home_research')]
     intro_paragraphs[0] = intro_paragraphs[0].replace(name, f'<strong>{name}</strong>')
     intro = ''.join(f'<p>{paragraph}</p>' for paragraph in intro_paragraphs)
     tags = ''.join(f'<span>{tr(t, lang)}</span>' for t in P['research_interests'])
