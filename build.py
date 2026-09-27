@@ -36,8 +36,8 @@ def pick(lang, zh, en):
 
 
 def target(lang, page=''):
-    """Return the real file; public page links use its containing directory."""
-    prefix = 'en/' if lang == 'en' else ''
+    """Return the real file; English is the default root, Chinese uses /zh/."""
+    prefix = 'zh/' if lang == 'zh' else ''
     return f'{prefix}{page + "/" if page else ""}index.html'
 
 
@@ -198,7 +198,7 @@ def layout(lang, page, content):
         metadata += f'<link rel="canonical" href="{esc(public_url(lang, page))}">'
         for loc in ('zh', 'en'):
             metadata += f'<link rel="alternate" hreflang="{pick(loc, "zh-CN", "en")}" href="{esc(public_url(loc, page))}">'
-        metadata += f'<link rel="alternate" hreflang="x-default" href="{esc(public_url("zh", page))}">'
+        metadata += f'<link rel="alternate" hreflang="x-default" href="{esc(public_url("en", page))}">'
         metadata += f'<meta property="og:url" content="{esc(public_url(lang, page))}"><meta property="og:image" content="{esc(SITE)}/images/shengqi-zhang.jpg">'
     person = {'@context': 'https://schema.org', '@type': 'Person', 'name': P['name']['en'], 'alternateName': P['name']['zh'], 'jobTitle': P['title']['en'], 'affiliation': {'@type': 'Organization', 'name': P['institution']['en']}, 'sameAs': [p['url'] for p in CONFIG['profiles']]}
     if SITE:
@@ -238,25 +238,11 @@ def write(path, text):
     GENERATED.append(path)
 
 
-def write_alias(path, lang, page=''):
-    """Keep old bookmarks working without advertising duplicate content."""
-    destination = rel(path, target(lang, page))
-    canonical = f'<link rel="canonical" href="{esc(public_url(lang, page))}">' if SITE else ''
-    write(path, f'''<!doctype html><html lang="{pick(lang, 'zh-CN', 'en')}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><meta name="redirect-target" content="{esc(destination)}">{canonical}<title>Shengqi Zhang · 章盛祺</title><script src="{esc(rel(path, 'assets/site.js'))}" defer></script><noscript><meta http-equiv="refresh" content="0;url={esc(destination)}"></noscript></head><body><p><a href="{esc(destination)}">{pick(lang, '前往新页面 →', 'Continue to the new page →')}</a></p></body></html>''')
-
-
 for lang in ('zh', 'en'):
     for page, renderer in [('', home), ('biography', biography), ('research', research), ('publications', publications), ('projects', projects), ('activities', activities)]:
         current = target(lang, page)
         write(current, layout(lang, page, renderer(lang, current)))
-# The root is the actual Chinese home; these are compatibility routes only.
-for page, _, _ in NAV:
-    suffix = f'{page}/' if page else ''
-    write_alias(f'zh/{suffix}index.html', 'zh', page)
-    for lang in ('zh', 'en'):
-        write_alias(f'Website/{lang}/{suffix}index.html', lang, page)
-write_alias('Website/index.html', 'zh')
-write('404.html', f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><title>页面未找到 · Shengqi Zhang</title><style>body{{font:18px/1.8 system-ui,sans-serif;background:#f4f4f4;color:#3c3b3b;margin:12vh auto;padding:24px;max-width:600px}}a{{color:#197e76}}</style></head><body><p>404 · SHENGQI ZHANG</p><h1>页面未找到</h1><p>This page could not be found.</p><p><a href="{BASE}/">返回中文主页 →</a></p><p><a href="{BASE}/en/">English homepage →</a></p></body></html>''')
+write('404.html', f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><title>Page not found · Shengqi Zhang</title><style>body{{font:18px/1.8 system-ui,sans-serif;background:#f4f4f4;color:#3c3b3b;margin:12vh auto;padding:24px;max-width:600px}}a{{color:#197e76}}</style></head><body><p>404 · SHENGQI ZHANG</p><h1>Page not found</h1><p><a href="{BASE}/">Return to the English homepage →</a></p><p><a href="{BASE}/zh/">中文主页 →</a></p></body></html>''')
 
 
 def bibtex(paper):
