@@ -1,0 +1,22 @@
+[
+  {
+    "title": {"zh": "旋转与分层湍流", "en": "Rotating and stratified turbulence"},
+    "description": {"zh": "研究展向旋转与密度分层对壁湍流的影响，分析两类体积力之间的相似性及其适用范围；结合低维模型与数值模拟，理解大尺度流动结构及其对动量和标量输运的作用。", "en": "Investigating how spanwise rotation and density stratification affect wall turbulence, including the analogy between their body forces and its range of validity. Reduced models and numerical simulations help explain large-scale flow structures and their roles in momentum and scalar transport."},
+    "papers": ["pub-01", "pub-23", "pub-24", "pub-32"]
+  },
+  {
+    "title": {"zh": "热对流与流动控制", "en": "Thermal convection and flow control"},
+    "description": {"zh": "关注浮力驱动流动中的大尺度环流、流向反转与传热过程。通过侧壁温度控制和边界条件设计研究流动调控，并利用摄动分析考察低马赫数流动中的斜压矩与浮力近似。", "en": "Studying large-scale circulation, flow reversal, and heat transfer in buoyancy-driven flows. Sidewall temperature control and thermal boundary conditions provide routes to flow regulation, while perturbation analysis clarifies baroclinic torque and buoyancy approximations in low-Mach-number flows."},
+    "papers": ["pub-28", "pub-29", "pub-31"]
+  },
+  {
+    "title": {"zh": "多孔介质输运与多相流", "en": "Transport in porous media and multiphase flows"},
+    "description": {"zh": "研究多孔介质中的强迫与自然对流，发展流动、传热与固体导热相耦合的模型，探讨介质各向异性及尺度律。相关工作也涉及多相流、液滴破碎与反应器中的多物理场过程。", "en": "Developing coupled models of flow, heat transfer, and solid conduction in porous media, with attention to anisotropy and scaling laws in forced and natural convection. Related work examines multiphase flows, droplet breakup, and multiphysics processes in reactors."},
+    "papers": ["pub-09", "pub-13", "pub-15", "pub-26"]
+  },
+  {
+    "title": {"zh": "降阶建模与智能科学计算", "en": "Reduced-order modeling and scientific computing"},
+    "description": {"zh": "围绕复杂流动的高效仿真，发展结合动态模态分解、Galerkin投影与参数插值的降阶模型。研究还包括全局线性稳定性分析、曲边网格生成，以及面向多物理场问题的数据驱动建模。", "en": "Developing efficient flow simulations through reduced-order models that combine dynamic mode decomposition, Galerkin projection, and parametric interpolation. Further interests include global linear stability analysis, curvilinear mesh generation, and data-driven modeling of multiphysics problems."},
+    "papers": ["pub-11", "pub-14", "pub-30", "pub-05"]
+  }
+]

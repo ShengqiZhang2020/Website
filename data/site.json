@@ -1,0 +1,11 @@
+{
+  "site_url": "https://shengqizhang2020.github.io/Website",
+  "repository_url": "https://github.com/ShengqiZhang2020/Website",
+  "profiles": [
+    {"label": "ORCID", "url": "https://orcid.org/0000-0001-8273-7484"},
+    {"label": "Google Scholar", "url": "https://scholar.google.com/citations?user=BXTC31AAAAAJ&hl=en"},
+    {"label": "ResearchGate", "url": "https://www.researchgate.net/profile/Shengqi-Zhang-2"}
+  ],
+  "content_year": 2026,
+  "selected_publications": ["pub-01", "pub-09", "pub-11", "pub-23", "pub-31"]
+}

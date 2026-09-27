@@ -1,0 +1,515 @@
+{
+  "schema_version": 1,
+  "source": [
+    "简历中文.docx",
+    "简历英文.docx"
+  ],
+  "name": {
+    "zh": "章盛祺",
+    "en": "Shengqi Zhang"
+  },
+  "title": {
+    "zh": "助理教授（PI）、副研究员、博士生导师",
+    "en": "Assistant Professor, PhD Supervisor"
+  },
+  "institution": {
+    "zh": "宁波东方理工大学",
+    "en": "Eastern Institute of Technology, Ningbo, China"
+  },
+  "email": "szhang@eitech.edu.cn",
+  "research_interests": [
+    {
+      "zh": "湍流",
+      "en": "Turbulence"
+    },
+    {
+      "zh": "传热传质",
+      "en": "Heat & mass transfer"
+    },
+    {
+      "zh": "多相流",
+      "en": "Multiphase flows"
+    },
+    {
+      "zh": "智能科学计算",
+      "en": "AI-empowered scientific computing"
+    }
+  ],
+  "biography": {
+    "zh": "章盛祺，宁波东方理工大学助理教授（PI）、副研究员、博士生导师。2018年获北京大学理论与应用力学本科学位，2022年获北京大学流体力学博士学位，师从陈十一院士。研究方向包括湍流、传热传质、多相流和智能科学计算。",
+    "en": "Shengqi Zhang is an Assistant Professor and PhD Supervisor at Eastern Institute of Technology, Ningbo, China. He received his B.S. in Theoretical and Applied Mechanics from Peking University in 2018 and his Ph.D. in Fluid Mechanics from Peking University in 2022, advised by Prof. Shiyi Chen. His research interests include turbulence, heat & mass transfer, multiphase flows, and AI-empowered scientific computing."
+  },
+  "education": [
+    {
+      "start": "2018.09",
+      "end": "2022.07",
+      "institution": {
+        "zh": "北京大学",
+        "en": "Peking University"
+      },
+      "field": {
+        "zh": "流体力学",
+        "en": "Fluid Mechanics"
+      },
+      "degree": {
+        "zh": "博士",
+        "en": "Ph.D."
+      },
+      "advisor": {
+        "zh": "陈十一院士",
+        "en": "Prof. Shiyi Chen"
+      }
+    },
+    {
+      "start": "2014.09",
+      "end": "2018.07",
+      "institution": {
+        "zh": "北京大学",
+        "en": "Peking University"
+      },
+      "field": {
+        "zh": "理论与应用力学",
+        "en": "Theoretical and Applied Mechanics"
+      },
+      "degree": {
+        "zh": "本科",
+        "en": "B.S."
+      }
+    }
+  ],
+  "projects": [
+    {
+      "program": {
+        "zh": "国自然青年科学基金",
+        "en": "NSFC Young Scientists Fund (National Natural Science Foundation of China)"
+      },
+      "title": {
+        "zh": "壁湍流中展向旋转与法向分层效应的相似性研究",
+        "en": "Similarity study of spanwise rotation and wall-normal stratification effects in wall turbulence"
+      },
+      "amount_original": "30万元",
+      "amount_cny": 300000,
+      "start": "2024.01",
+      "end": "2026.12",
+      "role": {
+        "zh": "主持",
+        "en": "PI"
+      }
+    },
+    {
+      "program": {
+        "zh": "国自然区域创新发展联合基金集成项目课题",
+        "en": "NSFC Joint Fund for Regional Innovation and Development Project – Subproject (National Natural Science Foundation of China)"
+      },
+      "title": {
+        "zh": "基于人工智能的多物理场仿真计算理论基础、算法与应用-课题5",
+        "en": "Theoretical Foundations, Algorithms, and Applications of Multiphysics Simulation Based on Artificial Intelligence-Project 5"
+      },
+      "amount_original": "150万元",
+      "amount_cny": 1500000,
+      "start": "2026.01",
+      "end": "2029.12",
+      "role": {
+        "zh": "主持",
+        "en": "PI"
+      }
+    },
+    {
+      "program": {
+        "zh": "国家科技重大专项子课题",
+        "en": "National Science and Technology Major Project – Subproject (Ministry of Science and Technology of China)"
+      },
+      "title": {
+        "zh": "锻造工艺宏/微观并行耦合仿真计算算法研究",
+        "en": "Parallel Simulation Algorithm of Macroscale/Microscale Coupling in Forging Process"
+      },
+      "amount_original": "40万元",
+      "amount_cny": 400000,
+      "start": "2024.10",
+      "end": "2027.09",
+      "role": {
+        "zh": "主持",
+        "en": "PI"
+      }
+    },
+    {
+      "program": {
+        "zh": "宁波市甬江人才工程青年创新人才项目",
+        "en": "Yongjiang Talent Introduction Program (Ningbo Municipal Education Bureau)"
+      },
+      "title": {
+        "zh": "旋转壁湍流控制优化的数值模拟研究",
+        "en": "Numerical investigation on optimal control of rotating wall turbulence"
+      },
+      "amount_original": "100万元",
+      "amount_cny": 1000000,
+      "start": "2025.01",
+      "end": "2029.12",
+      "role": {
+        "zh": "主持",
+        "en": "PI"
+      }
+    },
+    {
+      "program": {
+        "zh": "宁波市重点研发计划项目",
+        "en": "Key R&D Program (Ningbo Municipal Bureau of Science and Technology)"
+      },
+      "title": {
+        "zh": "基于人工智能的复杂流动建模与快速仿真技术与软件平台研发",
+        "en": "Complex flow modelling, fast simulation and software development based on artificial intelligence"
+      },
+      "amount_original": "100万元",
+      "amount_cny": 1000000,
+      "start": "2023.04",
+      "end": "2026.04",
+      "role": {
+        "zh": "主持",
+        "en": "Principal investigator"
+      }
+    },
+    {
+      "program": {
+        "zh": "宁波市顶尖人才科技项目",
+        "en": "Top Talent Program (Ningbo Municipal Bureau of Science and Technology)"
+      },
+      "title": {
+        "zh": "智能制造中的流动分析建模与仿真软件开发",
+        "en": "Flow analysis, modelling and simulation software for smart manufacturing"
+      },
+      "amount_original": "10000万元",
+      "amount_cny": 100000000,
+      "start": "2023.07",
+      "end": "2028.06",
+      "role": {
+        "zh": "第三完成人",
+        "en": "Core member (third-listed contributor)"
+      }
+    },
+    {
+      "program": {
+        "zh": "企业研发课题",
+        "en": "Industrial R&D Project"
+      },
+      "title": {
+        "zh": "新型固定床反应器设计与数值模拟",
+        "en": "Design and numerical simulation of novel fixed-bed reactors"
+      },
+      "amount_original": "15万元",
+      "amount_cny": 150000,
+      "start": "2024.10",
+      "end": "2025.04",
+      "role": {
+        "zh": "主持",
+        "en": "PI"
+      }
+    }
+  ],
+  "honors": [
+    {
+      "year": 2025,
+      "title": {
+        "zh": "浙江省高层次人才",
+        "en": "High-level Talent of Zhejiang Province"
+      }
+    },
+    {
+      "year": 2025,
+      "title": {
+        "zh": "宁波市领军人才",
+        "en": "Leading Talent, Ningbo Municipal Human Resources and Social Security Bureau"
+      }
+    },
+    {
+      "year": 2024,
+      "title": {
+        "zh": "宁波市甬江人才工程青年创新人才",
+        "en": "Young Innovative Talent, Ningbo Municipal Education Bureau"
+      }
+    },
+    {
+      "year": 2024,
+      "title": {
+        "zh": "北京市优秀博士学位论文",
+        "en": "Excellent PhD Dissertation, Beijing Municipal Education Commission"
+      }
+    },
+    {
+      "year": 2022,
+      "title": {
+        "zh": "北京大学优秀毕业生",
+        "en": "Outstanding Graduate, Peking University"
+      }
+    }
+  ],
+  "patents_software": [
+    {
+      "authors": {
+        "zh": "张蕊丽，章盛祺",
+        "en": "Ruili Zhang, Shengqi Zhang"
+      },
+      "year": 2026,
+      "title": {
+        "zh": "保路径曲边P2网格自适应生成方法、装置、设备及介质",
+        "en": "Path-preserving adaptive generation method, apparatus, device, and medium for curvilinear P2 meshes"
+      },
+      "type": {
+        "zh": "发明专利",
+        "en": "Invention Patent"
+      },
+      "number": "ZL202512003381.X"
+    },
+    {
+      "authors": {
+        "zh": "赖俊，章盛祺",
+        "en": "Jun Lai, Shengqi Zhang"
+      },
+      "year": 2026,
+      "title": {
+        "zh": "一种两相流动传热的数值模拟方法及系统",
+        "en": "Numerical simulation method and system for two-phase flow and heat transfer"
+      },
+      "type": {
+        "zh": "发明专利",
+        "en": "Invention Patent"
+      },
+      "number": "ZL202411602864.0"
+    },
+    {
+      "authors": {
+        "zh": "杜磊，章盛祺",
+        "en": "Lei Du, Shengqi Zhang"
+      },
+      "year": 2025,
+      "title": {
+        "zh": "DMD参数化降阶仿真软件V1.0",
+        "en": "DMD parametric reduced-order simulation software V1.0"
+      },
+      "type": {
+        "zh": "软件著作权",
+        "en": "Software Copyright"
+      },
+      "number": "2025SR2160817"
+    },
+    {
+      "authors": {
+        "zh": "杜磊，章盛祺",
+        "en": "Lei Du, Shengqi Zhang"
+      },
+      "year": 2025,
+      "title": {
+        "zh": "DMD-Galerkin参数化降阶仿真软件V1.0",
+        "en": "DMD-Galerkin parametric reduced-order simulation software V1.0"
+      },
+      "type": {
+        "zh": "软件著作权",
+        "en": "Software Copyright"
+      },
+      "number": "2025SR1740896"
+    },
+    {
+      "authors": {
+        "zh": "张蕊丽，章盛祺",
+        "en": "Ruili Zhang, Shengqi Zhang"
+      },
+      "year": 2025,
+      "title": {
+        "zh": "基于黎曼度量的二维曲边网格生成与自适应软件V1.0",
+        "en": "Riemannian-metric-based two-dimensional curved mesh generation and adaptation software V1.0"
+      },
+      "type": {
+        "zh": "软件著作权",
+        "en": "Software Copyright"
+      },
+      "number": "2025SR1719524"
+    }
+  ],
+  "talks": [
+    {
+      "date": "2026.01",
+      "title": {
+        "zh": "低马赫数流动中浮力近似的有效性",
+        "en": "Validity of buoyancy approximations in low-Mach-number flows"
+      },
+      "event": {
+        "zh": "中日韩热与流体工程研讨会",
+        "en": "China-Japan-Korea Symposium on Thermal and Fluid Engineering"
+      },
+      "location": {
+        "zh": "杭州",
+        "en": "Hangzhou, China"
+      }
+    },
+    {
+      "date": "2025.08",
+      "title": {
+        "zh": "剪切流中密度分层与展向旋转效应的相似性",
+        "en": "Similarity between stratification and spanwise rotation in shear flows"
+      },
+      "event": {
+        "zh": "大西南应用数学和力学研讨会",
+        "en": "Greater-Southwest Symposium on Applied Mathematics and Mechanics"
+      },
+      "location": {
+        "zh": "凉山",
+        "en": "Liangshan, China"
+      }
+    },
+    {
+      "date": "2025.04",
+      "title": {
+        "zh": "剪切流中密度分层与展向旋转效应的相似性",
+        "en": "Similarity between stratification and spanwise rotation in shear flows"
+      },
+      "event": {
+        "zh": "全国湍流与流动稳定性专题研讨会",
+        "en": "National Conference on Turbulence and Flow Stability"
+      },
+      "location": {
+        "zh": "南昌",
+        "en": "Nanchang, China"
+      }
+    },
+    {
+      "date": "2024.01",
+      "title": {
+        "zh": "壁湍流中展向旋转与法向分层效应的相似性",
+        "en": "Similarity between spanwise rotation and vertical stratification in wall turbulence"
+      },
+      "event": {
+        "zh": "湍流结构的生成演化与作用机理重大研究计划年度交流会",
+        "en": "NSFC Key Project Conference"
+      },
+      "location": {
+        "zh": "陵水",
+        "en": "Lingshui, China"
+      }
+    },
+    {
+      "date": "2023.08",
+      "title": {
+        "zh": "旋转分层壁湍流的统计特性与参数约化",
+        "en": "Statistics and parameter reduction of rotating stratified wall turbulence"
+      },
+      "event": {
+        "zh": "湍流、噪声与CFD方法高级暑期课程",
+        "en": "Advanced Summer Program on Turbulence, Noise and CFD Methods"
+      },
+      "location": {
+        "zh": "香港",
+        "en": "Hong Kong, China"
+      }
+    },
+    {
+      "date": "2023.04",
+      "title": {
+        "zh": "壁湍流中展向旋转与法向分层效应的相似性",
+        "en": "Similarity between spanwise rotation and vertical stratification in wall turbulence"
+      },
+      "event": {
+        "zh": "全国湍流与流动稳定性专题研讨会",
+        "en": "National Conference on Turbulence and Flow Stability"
+      },
+      "location": {
+        "zh": "宁波",
+        "en": "Ningbo, China"
+      }
+    },
+    {
+      "date": "2023.01",
+      "title": {
+        "zh": "低马赫数流动中斜压矩的摄动展开",
+        "en": "Perturbation analysis of baroclinic torque in low-Mach-number flows"
+      },
+      "event": {
+        "zh": "湍流结构的生成演化与作用机理重大研究计划年度交流会",
+        "en": "NSFC Key Project Conference"
+      },
+      "location": {
+        "zh": "宁波",
+        "en": "Ningbo, China"
+      }
+    },
+    {
+      "date": "2023.01",
+      "title": {
+        "zh": "浮力驱动流动的摄动分析与摄动控制",
+        "en": "Perturbation Analysis and Perturbative Control of Buoyancy-Driven Flows"
+      },
+      "event": {
+        "zh": "香港理工大学",
+        "en": "Hong Kong Polytechnic University"
+      },
+      "location": {
+        "zh": "香港",
+        "en": "Hong Kong, China"
+      }
+    },
+    {
+      "date": "2022.11",
+      "title": {
+        "zh": "低马赫数流动中斜压矩的摄动分析",
+        "en": "Perturbation analysis of baroclinic torque in low-Mach-number flows"
+      },
+      "event": {
+        "zh": "中南大学",
+        "en": "Central South University"
+      },
+      "location": {
+        "zh": "长沙",
+        "en": "Changsha, China"
+      }
+    }
+  ],
+  "service": {
+    "reviewer_journals": [
+      "Physical Review E",
+      "International Journal of Heat and Mass Transfer",
+      "Acta Mechanica Sinica",
+      "Physics of Fluids",
+      "Journal of Turbulence",
+      "European Journal of Mechanics-B/Fluids",
+      "Scientific Reports",
+      "Boundary Value Problems",
+      "Acta Aerodynamica Sinica",
+      "Chinese Journal of Theoretical and Applied Mechanics"
+    ],
+    "entries": [
+      {
+        "zh": "教育部学位中心博士论文评审专家",
+        "en": "Ph.D. dissertation reviewer: China Academic Degrees and Graduate Education Development Center"
+      },
+      {
+        "zh": "浙江省力学学会科普委员会成员",
+        "en": "Science Popularization Committee member of Zhejiang Society of Theoretical and Applied Mechanics"
+      }
+    ]
+  },
+  "notes": {
+    "corresponding_author_marker": "*",
+    "funding": {
+      "zh": "科研项目经费按简历所列金额录入；项目经费不等同于个人经费。",
+      "en": "Funding amounts are reproduced from the CV and represent project amounts, not personal funding."
+    },
+    "translation": {
+      "zh": "英文任职、教育、项目、荣誉、报告及学术服务已参照英文简历校对；待确认的两处差异暂沿用中文简历事实。",
+      "en": "English wording has been checked against the supplied English CV. Two unresolved factual differences retain the Chinese CV wording pending confirmation."
+    },
+    "missing": {
+      "zh": "简历未提供任职开始日期、团队成员及招生信息。学术主页链接由本人补充。",
+      "en": "The CVs do not specify employment start dates, team members, or recruitment information. Academic profile links were supplied by the owner."
+    }
+  },
+  "home_intro": {
+    "zh": "欢迎访问我的学术主页。我是章盛祺，宁波东方理工大学助理教授（PI）、副研究员、博士生导师。",
+    "en": "Welcome to my academic homepage. I am Shengqi Zhang, an Assistant Professor and PhD Supervisor at Eastern Institute of Technology, Ningbo, China."
+  },
+  "home_research": {
+    "zh": "我的研究围绕湍流、传热传质、多相流与智能科学计算展开，关注旋转与分层流动的物理机制、复杂介质中的输运规律，以及面向多物理场系统的高效计算方法。",
+    "en": "My research spans turbulence, heat & mass transfer, multiphase flows, and AI-empowered scientific computing. I study the physics of rotating and stratified flows, transport in complex media, and efficient computational methods for multiphysics systems."
+  },
+  "home_background": {
+    "zh": "我于2018年在北京大学获得理论与应用力学本科学位，2022年获得流体力学博士学位，师从陈十一院士。欢迎学术交流与合作。",
+    "en": "I received my B.S. in Theoretical and Applied Mechanics (2018) and Ph.D. in Fluid Mechanics (2022) from Peking University, advised by Prof. Shiyi Chen. I welcome academic exchange and collaboration."
+  }
+}

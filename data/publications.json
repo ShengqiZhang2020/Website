@@ -1,0 +1,1514 @@
+[
+  {
+    "id": "pub-01",
+    "authors": "Zhouxin Jiang, Shengqi Zhang*, Jiaao Hao, Chao Sun, Zhiyang Cai, Zhijian Wang",
+    "year": 2026,
+    "title": "Validity of the twin-force analogy in Couette flows",
+    "journal": "Journal of Fluid Mechanics",
+    "details": "1042: A26",
+    "citation": "Zhouxin Jiang, Shengqi Zhang*, Jiaao Hao, Chao Sun, Zhiyang Cai, Zhijian Wang, (2026). Validity of the twin-force analogy in Couette flows. Journal of Fluid Mechanics, 1042: A26.",
+    "doi": "10.1017/jfm.2026.11999",
+    "pdf": "files/papers/twin-force-validity-2026.pdf",
+    "source_pdf": "Validity of the twin-force analogy in Couette flows.pdf",
+    "source_page": 1,
+    "abstract_summary": {
+      "zh": "结合线性稳定性分析与直接数值模拟，建立平面与环形几何之间的联系，并以模态竞争解释孪生力类比的适用范围及失效机制。",
+      "en": "Uses linear stability analysis and direct numerical simulation to connect planar and annular flows and explain twin-force analogy breakdown through mode competition."
+    },
+    "authors_list": [
+      "Zhouxin Jiang",
+      "Shengqi Zhang",
+      "Jiaao Hao",
+      "Chao Sun",
+      "Zhiyang Cai",
+      "Zhijian Wang"
+    ],
+    "corresponding_authors": [
+      "Shengqi Zhang"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 2,
+      "range": "A2:P2"
+    },
+    "spreadsheet_date": "2026-09-10",
+    "status": "published",
+    "first_author": "Zhouxin Jiang",
+    "shengqi_zhang_first_author": false,
+    "shengqi_zhang_corresponding_author": true,
+    "doi_url": "https://doi.org/10.1017/jfm.2026.11999",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1017/jfm.2026.11999",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://www.cambridge.org/core/product/identifier/S0022112026119995/type/journal_article",
+    "published_online": "2026-09-04",
+    "issue_date": "2026-09-10"
+  },
+  {
+    "id": "pub-02",
+    "authors": "Feixiong Rao*, Shengqi Zhang",
+    "year": 2026,
+    "title": "Direct numerical simulation study of stable anti-Rayleigh–Bénard convection in porous media up to moderate Rayleigh numbers",
+    "journal": "Physics of Fluids",
+    "details": "38(9): 093307",
+    "citation": "Feixiong Rao*, Shengqi Zhang, (2026). Direct numerical simulation study of stable anti-Rayleigh–Bénard convection in porous media up to moderate Rayleigh numbers. Physics of Fluids, 38(9): 093307.",
+    "authors_list": [
+      "Feixiong Rao",
+      "Shengqi Zhang"
+    ],
+    "corresponding_authors": [
+      "Feixiong Rao"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 3,
+      "range": "A3:P3"
+    },
+    "spreadsheet_date": "2026-09-02",
+    "status": "published",
+    "first_author": "Feixiong Rao",
+    "shengqi_zhang_first_author": false,
+    "shengqi_zhang_corresponding_author": false,
+    "doi": "10.1063/5.0344718",
+    "doi_url": "https://doi.org/10.1063/5.0344718",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1063/5.0344718",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://pubs.aip.org/pof/article/38/9/093307/3403647/Direct-numerical-simulation-study-of-stable-anti",
+    "published_online": "2026-09-02",
+    "issue_date": "2026-09-01"
+  },
+  {
+    "id": "pub-03",
+    "authors": "Xiangxiang Zhu, Shanwu Li, Yong Cao, Shengqi Zhang, Shubin Fu, Zhiping Mao, Yongchao Yang, Shiyi Chen",
+    "year": 2026,
+    "title": "A strongly coupled fluid–structure interaction network for predictive modelling of vortex-induced vibrations",
+    "journal": "Journal of Fluid Mechanics",
+    "details": "1039: A12",
+    "citation": "Xiangxiang Zhu, Shanwu Li, Yong Cao, Shengqi Zhang, Shubin Fu, Zhiping Mao, Yongchao Yang, Shiyi Chen, (2026). A strongly coupled fluid–structure interaction network for predictive modelling of vortex-induced vibrations. Journal of Fluid Mechanics, 1039: A12.",
+    "authors_list": [
+      "Xiangxiang Zhu",
+      "Shanwu Li",
+      "Yong Cao",
+      "Shengqi Zhang",
+      "Shubin Fu",
+      "Zhiping Mao",
+      "Yongchao Yang",
+      "Shiyi Chen"
+    ],
+    "corresponding_authors": [],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 4,
+      "range": "A4:P4"
+    },
+    "spreadsheet_date": "2026-07-25",
+    "status": "published",
+    "first_author": "Xiangxiang Zhu",
+    "shengqi_zhang_first_author": false,
+    "shengqi_zhang_corresponding_author": false,
+    "doi": "10.1017/jfm.2026.11766",
+    "doi_url": "https://doi.org/10.1017/jfm.2026.11766",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1017/jfm.2026.11766",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://www.cambridge.org/core/product/identifier/S0022112026117662/type/journal_article",
+    "published_online": "2026-07-15",
+    "issue_date": "2026-07-25"
+  },
+  {
+    "id": "pub-04",
+    "authors": "Qifan Wang, Jiahui Zhang, Pengyang Ye, Kejing Lu, Shengqi Zhang, Zhentao Liu*",
+    "year": 2026,
+    "title": "Multi-objective optimization of fin structure parameters for plate-fin heat exchangers based on the machine learning model",
+    "journal": "Journal of Thermal Analysis and Calorimetry",
+    "details": "151(15): 12391-12408",
+    "citation": "Qifan Wang, Jiahui Zhang, Pengyang Ye, Kejing Lu, Shengqi Zhang, Zhentao Liu*, (2026). Multi-objective optimization of fin structure parameters for plate-fin heat exchangers based on the machine learning model. Journal of Thermal Analysis and Calorimetry, 151(15): 12391-12408.",
+    "authors_list": [
+      "Qifan Wang",
+      "Jiahui Zhang",
+      "Pengyang Ye",
+      "Kejing Lu",
+      "Shengqi Zhang",
+      "Zhentao Liu"
+    ],
+    "corresponding_authors": [
+      "Zhentao Liu"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 5,
+      "range": "A5:P5"
+    },
+    "spreadsheet_date": "2026-07-08",
+    "status": "published",
+    "first_author": "Qifan Wang",
+    "shengqi_zhang_first_author": false,
+    "shengqi_zhang_corresponding_author": false,
+    "doi": "10.1007/s10973-026-15867-9",
+    "doi_url": "https://doi.org/10.1007/s10973-026-15867-9",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1007/s10973-026-15867-9",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://link.springer.com/10.1007/s10973-026-15867-9",
+    "published_online": "2026-07-08",
+    "issue_date": "2026-07"
+  },
+  {
+    "id": "pub-05",
+    "authors": "Ruili Zhang, Shengqi Zhang*",
+    "year": 2026,
+    "title": "A flexible and path-preserving framework for curvilinear P2 mesh generation based on Riemannian geometry",
+    "journal": "Journal of Computational Physics",
+    "details": "564: 115158",
+    "citation": "Ruili Zhang, Shengqi Zhang*, (2026). A flexible and path-preserving framework for curvilinear P2 mesh generation based on Riemannian geometry. Journal of Computational Physics, 564: 115158.",
+    "authors_list": [
+      "Ruili Zhang",
+      "Shengqi Zhang"
+    ],
+    "corresponding_authors": [
+      "Shengqi Zhang"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 6,
+      "range": "A6:P6"
+    },
+    "spreadsheet_date": "2026-11-01",
+    "status": "published-online",
+    "first_author": "Ruili Zhang",
+    "shengqi_zhang_first_author": false,
+    "shengqi_zhang_corresponding_author": true,
+    "doi": "10.1016/j.jcp.2026.115158",
+    "doi_url": "https://doi.org/10.1016/j.jcp.2026.115158",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1016/j.jcp.2026.115158",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S0021999126005103",
+    "issue_date": "2026-11",
+    "publication_note": {
+      "zh": "期刊出版商已提供在线文章页；卷期安排为 2026 年 11 月。确切在线发表日期未核实。",
+      "en": "An online article page is available from the publisher; the assigned issue is November 2026. The exact online publication date was not verified."
+    },
+    "metadata_correction": {
+      "field": "details",
+      "source_value": "564: 115118",
+      "corrected_value": "564: 115158",
+      "basis": "Publisher-deposited Crossref metadata identifies article 115158 for the exact title and authors.",
+      "source_url": "https://api.crossref.org/works/10.1016/j.jcp.2026.115158",
+      "publisher_url": "https://www.sciencedirect.com/science/article/abs/pii/S0021999126005103"
+    }
+  },
+  {
+    "id": "pub-06",
+    "authors": "Jin Hu, Shengqi Zhang, Zhenhua Xia*",
+    "year": 2026,
+    "title": "Suppressing flow reversal and modulating heat transfer in turbulent square convection via a half-length isothermal hot plate",
+    "journal": "Physics of Fluids",
+    "details": "38(5): 055129",
+    "citation": "Jin Hu, Shengqi Zhang, Zhenhua Xia*, (2026). Suppressing flow reversal and modulating heat transfer in turbulent square convection via a half-length isothermal hot plate. Physics of Fluids, 38(5): 055129.",
+    "authors_list": [
+      "Jin Hu",
+      "Shengqi Zhang",
+      "Zhenhua Xia"
+    ],
+    "corresponding_authors": [
+      "Zhenhua Xia"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 7,
+      "range": "A7:P7"
+    },
+    "spreadsheet_date": "2026-05-19",
+    "status": "published",
+    "first_author": "Jin Hu",
+    "shengqi_zhang_first_author": false,
+    "shengqi_zhang_corresponding_author": false,
+    "doi": "10.1063/5.0323594",
+    "doi_url": "https://doi.org/10.1063/5.0323594",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1063/5.0323594",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://pubs.aip.org/pof/article/38/5/055129/3391621/Suppressing-flow-reversal-and-modulating-heat",
+    "published_online": "2026-05-19",
+    "issue_date": "2026-05-01"
+  },
+  {
+    "id": "pub-07",
+    "authors": "Wenlu Guo, Shengqi Zhang, Yaxing Li, Zhenhua Xia*",
+    "year": 2026,
+    "title": "Stabilising large-scale motions to enhance passive scalar transport in spanwise rotating plane Poiseuille flows",
+    "journal": "Journal of Fluid Mechanics",
+    "details": "1034: A13",
+    "citation": "Wenlu Guo, Shengqi Zhang, Yaxing Li, Zhenhua Xia*, (2026). Stabilising large-scale motions to enhance passive scalar transport in spanwise rotating plane Poiseuille flows. Journal of Fluid Mechanics, 1034: A13.",
+    "authors_list": [
+      "Wenlu Guo",
+      "Shengqi Zhang",
+      "Yaxing Li",
+      "Zhenhua Xia"
+    ],
+    "corresponding_authors": [
+      "Zhenhua Xia"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 8,
+      "range": "A8:P8"
+    },
+    "spreadsheet_date": "2026-05-10",
+    "status": "published",
+    "first_author": "Wenlu Guo",
+    "shengqi_zhang_first_author": false,
+    "shengqi_zhang_corresponding_author": false,
+    "doi": "10.1017/jfm.2026.11486",
+    "doi_url": "https://doi.org/10.1017/jfm.2026.11486",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1017/jfm.2026.11486",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://www.cambridge.org/core/product/identifier/S0022112026114864/type/journal_article",
+    "published_online": "2026-04-27",
+    "issue_date": "2026-05-10"
+  },
+  {
+    "id": "pub-08",
+    "authors": "Wenlu Guo, Shengqi Zhang, Yaxing Li, Zhenhua Xia*",
+    "year": 2026,
+    "title": "Influence of spanwise domain constraint on flow statistics and heat transfer in spanwise rotating plane Poiseuille flows",
+    "journal": "Acta Mechanica Sinica",
+    "details": "42: 325112",
+    "citation": "Wenlu Guo, Shengqi Zhang, Yaxing Li, Zhenhua Xia*, (2026). Influence of spanwise domain constraint on flow statistics and heat transfer in spanwise rotating plane Poiseuille flows. Acta Mechanica Sinica, 42: 325112.",
+    "authors_list": [
+      "Wenlu Guo",
+      "Shengqi Zhang",
+      "Yaxing Li",
+      "Zhenhua Xia"
+    ],
+    "corresponding_authors": [
+      "Zhenhua Xia"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 9,
+      "range": "A9:P9"
+    },
+    "spreadsheet_date": "2026-02-16",
+    "status": "published",
+    "first_author": "Wenlu Guo",
+    "shengqi_zhang_first_author": false,
+    "shengqi_zhang_corresponding_author": false,
+    "doi": "10.1007/s10409-025-25112-x",
+    "doi_url": "https://doi.org/10.1007/s10409-025-25112-x",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1007/s10409-025-25112-x",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://link.springer.com/10.1007/s10409-025-25112-x",
+    "published_online": "2026-02-26",
+    "issue_date": "2026-02"
+  },
+  {
+    "id": "pub-09",
+    "authors": "Feixiong Rao, Shengqi Zhang*",
+    "year": 2026,
+    "title": "Unified scaling laws in porous-medium vertical natural convection",
+    "journal": "Journal of Fluid Mechanics",
+    "details": "1028: A17",
+    "citation": "Feixiong Rao, Shengqi Zhang*, (2026). Unified scaling laws in porous-medium vertical natural convection. Journal of Fluid Mechanics, 1028: A17.",
+    "doi": "10.1017/jfm.2025.11108",
+    "pdf": "files/papers/porous-scaling-2026.pdf",
+    "source_pdf": "Unified scaling laws in porous-medium vertical natural convection.pdf",
+    "source_page": 1,
+    "abstract_summary": {
+      "zh": "结合理论分析与直接数值模拟，提出多孔介质垂直自然对流中涵盖稳态、过渡和湍流状态的传热及流动强度标度模型。",
+      "en": "Combines theory and direct numerical simulation to unify heat-transfer and flow-intensity scalings across steady, transitional, and turbulent porous-medium vertical convection."
+    },
+    "authors_list": [
+      "Feixiong Rao",
+      "Shengqi Zhang"
+    ],
+    "corresponding_authors": [
+      "Shengqi Zhang"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 10,
+      "range": "A10:P10"
+    },
+    "spreadsheet_date": "2026-02-10",
+    "status": "published",
+    "first_author": "Feixiong Rao",
+    "shengqi_zhang_first_author": false,
+    "shengqi_zhang_corresponding_author": true,
+    "doi_url": "https://doi.org/10.1017/jfm.2025.11108",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1017/jfm.2025.11108",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://www.cambridge.org/core/product/identifier/S0022112025111087/type/journal_article",
+    "published_online": "2026-01-30",
+    "issue_date": "2026-02-10"
+  },
+  {
+    "id": "pub-10",
+    "authors": "Yang Chen, Pingang Wei, Shengqi Zhang, Zhanming Wan, Peng Zhang, Kaixuan Zhang, Peng Wang, Wei Liu*",
+    "year": 2026,
+    "title": "Pattern selection between two-dimensional Rayleigh–Bénard convection and electroconvection near electrochemical surfaces",
+    "journal": "Journal of Fluid Mechanics",
+    "details": "1028: A10",
+    "citation": "Yang Chen, Pingang Wei, Shengqi Zhang, Zhanming Wan, Peng Zhang, Kaixuan Zhang, Peng Wang, Wei Liu*, (2026). Pattern selection between two-dimensional Rayleigh–Bénard convection and electroconvection near electrochemical surfaces. Journal of Fluid Mechanics, 1028: A10.",
+    "authors_list": [
+      "Yang Chen",
+      "Pingang Wei",
+      "Shengqi Zhang",
+      "Zhanming Wan",
+      "Peng Zhang",
+      "Kaixuan Zhang",
+      "Peng Wang",
+      "Wei Liu"
+    ],
+    "corresponding_authors": [
+      "Wei Liu"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 11,
+      "range": "A11:P11"
+    },
+    "spreadsheet_date": "2026-02-10",
+    "status": "published",
+    "first_author": "Yang Chen",
+    "shengqi_zhang_first_author": false,
+    "shengqi_zhang_corresponding_author": false,
+    "doi": "10.1017/jfm.2025.10678",
+    "doi_url": "https://doi.org/10.1017/jfm.2025.10678",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1017/jfm.2025.10678",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://www.cambridge.org/core/product/identifier/S0022112025106782/type/journal_article",
+    "published_online": "2026-01-30",
+    "issue_date": "2026-02-10"
+  },
+  {
+    "id": "pub-11",
+    "authors": "Lei Du, Shengqi Zhang*, Ruili Zhang, Shibin Zhang",
+    "year": 2026,
+    "title": "Interpolation-based parametric reduced-order models with dynamic mode decomposition",
+    "journal": "Journal of Computational Physics",
+    "details": "544: 114436",
+    "citation": "Lei Du, Shengqi Zhang*, Ruili Zhang, Shibin Zhang, (2026). Interpolation-based parametric reduced-order models with dynamic mode decomposition. Journal of Computational Physics, 544: 114436.",
+    "doi": "10.1016/j.jcp.2025.114436",
+    "pdf": "files/papers/dmd-parametric-2026.pdf",
+    "source_pdf": "Interpolation-based parametric reduced-order models with dynamic mode decomposition.pdf",
+    "source_page": 1,
+    "abstract_summary": {
+      "zh": "提出复数非正交 DMD 模态插值与模态排序方法，并结合特征值插值，构建纯数据驱动的参数化降阶模型。",
+      "en": "Constructs data-driven parametric reduced-order models through interpolation of complex nonorthogonal DMD modes and eigenvalues, with improved mode ranking."
+    },
+    "authors_list": [
+      "Lei Du",
+      "Shengqi Zhang",
+      "Ruili Zhang",
+      "Shibin Zhang"
+    ],
+    "corresponding_authors": [
+      "Shengqi Zhang"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 12,
+      "range": "A12:P12"
+    },
+    "spreadsheet_date": "2026-01-01",
+    "status": "published",
+    "first_author": "Lei Du",
+    "shengqi_zhang_first_author": false,
+    "shengqi_zhang_corresponding_author": true,
+    "doi_url": "https://doi.org/10.1016/j.jcp.2025.114436",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1016/j.jcp.2025.114436",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S0021999125007181",
+    "issue_date": "2026-01"
+  },
+  {
+    "id": "pub-12",
+    "authors": "Zhenze Zhu, Shengqi Zhang*, Lifeng Xiao",
+    "year": 2025,
+    "title": "Numerical study of methane dry reforming in an electromagnetic induction heating reactor",
+    "journal": "Applied Thermal Engineering",
+    "details": "280: 128514",
+    "citation": "Zhenze Zhu, Shengqi Zhang*, Lifeng Xiao, (2025). Numerical study of methane dry reforming in an electromagnetic induction heating reactor. Applied Thermal Engineering, 280: 128514.",
+    "doi": "10.1016/j.applthermaleng.2025.128514",
+    "pdf": "files/papers/induction-drm-2025.pdf",
+    "source_pdf": "Numerical study of methane dry reforming in an electromagnetic induction heating reactor.pdf",
+    "source_page": 1,
+    "abstract_summary": {
+      "zh": "耦合电磁场、流动传热与化学反应动力学，分析电磁感应加热对甲烷干重整反应器温度分布和转化性能的影响。",
+      "en": "Couples electromagnetics, fluid flow, heat transfer, and chemical kinetics to assess induction heating in methane dry reforming reactors."
+    },
+    "authors_list": [
+      "Zhenze Zhu",
+      "Shengqi Zhang",
+      "Lifeng Xiao"
+    ],
+    "corresponding_authors": [
+      "Shengqi Zhang"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 13,
+      "range": "A13:P13"
+    },
+    "spreadsheet_date": "2025-12-01",
+    "status": "published",
+    "first_author": "Zhenze Zhu",
+    "shengqi_zhang_first_author": false,
+    "shengqi_zhang_corresponding_author": true,
+    "doi_url": "https://doi.org/10.1016/j.applthermaleng.2025.128514",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1016/j.applthermaleng.2025.128514",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S1359431125031060",
+    "issue_date": "2025-12",
+    "citation_note": "Issue (5) omitted because it is absent from the supplied article title page and publisher metadata."
+  },
+  {
+    "id": "pub-13",
+    "authors": "Feixiong Rao, Shengqi Zhang*",
+    "year": 2025,
+    "title": "Coupled modelling of turbulent forced thermal convection in anisotropic porous media",
+    "journal": "Journal of Fluid Mechanics",
+    "details": "1017: A31",
+    "citation": "Feixiong Rao, Shengqi Zhang*, (2025). Coupled modelling of turbulent forced thermal convection in anisotropic porous media. Journal of Fluid Mechanics, 1017: A31.",
+    "doi": "10.1017/jfm.2025.10484",
+    "pdf": "files/papers/anisotropic-porous-2025.pdf",
+    "source_pdf": "Coupled modelling of turbulent forced thermal convection in anisotropic porous media.pdf",
+    "source_page": 1,
+    "abstract_summary": {
+      "zh": "构建各向异性多孔介质的热–流–固耦合宏观模型，统一描述阻力、相间换热及动量与热弥散。",
+      "en": "Develops coupled macroscopic models of drag, interphase heat transfer, and momentum and thermal dispersion in anisotropic porous media."
+    },
+    "authors_list": [
+      "Feixiong Rao",
+      "Shengqi Zhang"
+    ],
+    "corresponding_authors": [
+      "Shengqi Zhang"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 14,
+      "range": "A14:P14"
+    },
+    "spreadsheet_date": "2025-08-25",
+    "status": "published",
+    "first_author": "Feixiong Rao",
+    "shengqi_zhang_first_author": false,
+    "shengqi_zhang_corresponding_author": true,
+    "doi_url": "https://doi.org/10.1017/jfm.2025.10484",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1017/jfm.2025.10484",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://www.cambridge.org/core/product/identifier/S0022112025104849/type/journal_article",
+    "published_online": "2025-08-20",
+    "issue_date": "2025-08-25"
+  },
+  {
+    "id": "pub-14",
+    "authors": "Lei Du, Shengqi Zhang*, Yongchao Yang",
+    "year": 2025,
+    "title": "Interpolation-based parametric reduced-order models via Galerkin projection and dynamic mode decomposition",
+    "journal": "Physics of Fluids",
+    "details": "37(8): 087169",
+    "citation": "Lei Du, Shengqi Zhang*, Yongchao Yang, (2025). Interpolation-based parametric reduced-order models via Galerkin projection and dynamic mode decomposition. Physics of Fluids, 37(8): 087169.",
+    "doi": "10.1063/5.0277689",
+    "pdf": "files/papers/dmd-galerkin-2025.pdf",
+    "source_pdf": "Interpolation-based parametric reduced-order models via Galerkin projection and dynamic mode decomposition.pdf",
+    "source_page": 2,
+    "abstract_summary": {
+      "zh": "将复数 DMD 模态插值与 Galerkin 投影结合，构建可预测未见参数下圆柱绕流的参数化降阶模型。",
+      "en": "Combines interpolation of complex DMD modes with Galerkin projection to build parametric reduced-order models for cylinder flow at unseen parameters."
+    },
+    "authors_list": [
+      "Lei Du",
+      "Shengqi Zhang",
+      "Yongchao Yang"
+    ],
+    "corresponding_authors": [
+      "Shengqi Zhang"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 15,
+      "range": "A15:P15"
+    },
+    "spreadsheet_date": "2025-08-15",
+    "status": "published",
+    "first_author": "Lei Du",
+    "shengqi_zhang_first_author": false,
+    "shengqi_zhang_corresponding_author": true,
+    "doi_url": "https://doi.org/10.1063/5.0277689",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1063/5.0277689",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://pubs.aip.org/pof/article/37/8/087169/3358975/Interpolation-based-parametric-reduced-order",
+    "published_online": "2025-08-15",
+    "issue_date": "2025-08-01"
+  },
+  {
+    "id": "pub-15",
+    "authors": "Feixiong Rao, Shengqi Zhang*",
+    "year": 2025,
+    "title": "Heat-fluid-solid coupling model for turbulent forced convection within porous media",
+    "journal": "Physical Review Fluids",
+    "details": "10(6): 064502",
+    "citation": "Feixiong Rao, Shengqi Zhang*, (2025). Heat-fluid-solid coupling model for turbulent forced convection within porous media. Physical Review Fluids, 10(6): 064502.",
+    "doi": "10.1103/67vg-cfqb",
+    "pdf": "files/papers/heat-fluid-solid-2025.pdf",
+    "source_pdf": "Heat-fluid-solid coupling model for turbulent forced convection within porous media.pdf",
+    "source_page": 1,
+    "abstract_summary": {
+      "zh": "建立多孔介质湍流强制对流的热–流–固耦合模型，用跨越 Darcy 与 Forchheimer 区域的换热标度及热弥散模型预测温度演化。",
+      "en": "Models heat-fluid-solid coupling in porous-media forced convection using interphase heat-transfer scalings and thermal dispersion across Darcy and Forchheimer regimes."
+    },
+    "authors_list": [
+      "Feixiong Rao",
+      "Shengqi Zhang"
+    ],
+    "corresponding_authors": [
+      "Shengqi Zhang"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 16,
+      "range": "A16:P16"
+    },
+    "spreadsheet_date": "2025-06-25",
+    "status": "published",
+    "first_author": "Feixiong Rao",
+    "shengqi_zhang_first_author": false,
+    "shengqi_zhang_corresponding_author": true,
+    "doi_url": "https://doi.org/10.1103/67vg-cfqb",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1103/67vg-cfqb",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://link.aps.org/doi/10.1103/67vg-cfqb",
+    "published_online": "2025-06-25"
+  },
+  {
+    "id": "pub-16",
+    "authors": "Jin Hu, Shengqi Zhang, Zhenhua Xia*",
+    "year": 2025,
+    "title": "An efficient modified enthalpy method for phase-change melting problems with dual time-steps",
+    "journal": "International Journal of Heat and Mass Transfer",
+    "details": "239: 126544",
+    "citation": "Jin Hu, Shengqi Zhang, Zhenhua Xia*, (2025). An efficient modified enthalpy method for phase-change melting problems with dual time-steps. International Journal of Heat and Mass Transfer, 239: 126544.",
+    "authors_list": [
+      "Jin Hu",
+      "Shengqi Zhang",
+      "Zhenhua Xia"
+    ],
+    "corresponding_authors": [
+      "Zhenhua Xia"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 17,
+      "range": "A17:P17"
+    },
+    "spreadsheet_date": "2025-04-01",
+    "status": "published",
+    "first_author": "Jin Hu",
+    "shengqi_zhang_first_author": false,
+    "shengqi_zhang_corresponding_author": false,
+    "doi": "10.1016/j.ijheatmasstransfer.2024.126544",
+    "doi_url": "https://doi.org/10.1016/j.ijheatmasstransfer.2024.126544",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1016/j.ijheatmasstransfer.2024.126544",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S0017931024013723",
+    "issue_date": "2025-04"
+  },
+  {
+    "id": "pub-17",
+    "authors": "Kaizhen Shi, Shengqi Zhang*",
+    "year": 2025,
+    "title": "Turbulent transport in annular Poiseuille flow with axial rotation",
+    "journal": "Physics of Fluids",
+    "details": "37(3): 035116",
+    "citation": "Kaizhen Shi, Shengqi Zhang*, (2025). Turbulent transport in annular Poiseuille flow with axial rotation. Physics of Fluids, 37(3): 035116.",
+    "authors_list": [
+      "Kaizhen Shi",
+      "Shengqi Zhang"
+    ],
+    "corresponding_authors": [
+      "Shengqi Zhang"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 18,
+      "range": "A18:P18"
+    },
+    "spreadsheet_date": "2025-03-04",
+    "status": "published",
+    "first_author": "Kaizhen Shi",
+    "shengqi_zhang_first_author": false,
+    "shengqi_zhang_corresponding_author": true,
+    "doi": "10.1063/5.0257318",
+    "doi_url": "https://doi.org/10.1063/5.0257318",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1063/5.0257318",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://pubs.aip.org/pof/article/37/3/035116/3338369/Turbulent-transport-in-annular-Poiseuille-flow",
+    "published_online": "2025-03-04",
+    "issue_date": "2025-03-01"
+  },
+  {
+    "id": "pub-18",
+    "authors": "Jun Lai*, Yiming Qi, Shengqi Zhang, Lian-Ping Wang*",
+    "year": 2025,
+    "title": "Analytical solutions of layered Poiseuille flows in the diffuse interface model",
+    "journal": "Physics of Fluids",
+    "details": "37(2), 023612",
+    "citation": "Jun Lai*, Yiming Qi, Shengqi Zhang, Lian-Ping Wang*, (2025). Analytical solutions of layered Poiseuille flows in the diffuse interface model. Physics of Fluids, 37(2), 023612.",
+    "authors_list": [
+      "Jun Lai",
+      "Yiming Qi",
+      "Shengqi Zhang",
+      "Lian-Ping Wang"
+    ],
+    "corresponding_authors": [
+      "Jun Lai",
+      "Lian-Ping Wang"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 19,
+      "range": "A19:P19"
+    },
+    "spreadsheet_date": "2025-02-07",
+    "status": "published",
+    "first_author": "Jun Lai",
+    "shengqi_zhang_first_author": false,
+    "shengqi_zhang_corresponding_author": false,
+    "doi": "10.1063/5.0252214",
+    "doi_url": "https://doi.org/10.1063/5.0252214",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1063/5.0252214",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://pubs.aip.org/pof/article/37/2/023612/3334489/Analytical-solutions-of-layered-Poiseuille-flows",
+    "published_online": "2025-02-07",
+    "issue_date": "2025-02-01"
+  },
+  {
+    "id": "pub-19",
+    "authors": "Feixiong Rao*, Shengqi Zhang",
+    "year": 2025,
+    "title": "The in-depth analysis and validation of momentum dispersion modeling based on direct numerical simulation",
+    "journal": "Physics of Fluids",
+    "details": "37(1): 015142",
+    "citation": "Feixiong Rao*, Shengqi Zhang, (2025). The in-depth analysis and validation of momentum dispersion modeling based on direct numerical simulation. Physics of Fluids, 37(1): 015142.",
+    "authors_list": [
+      "Feixiong Rao",
+      "Shengqi Zhang"
+    ],
+    "corresponding_authors": [
+      "Feixiong Rao"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 20,
+      "range": "A20:P20"
+    },
+    "spreadsheet_date": "2025-01-03",
+    "status": "published",
+    "first_author": "Feixiong Rao",
+    "shengqi_zhang_first_author": false,
+    "shengqi_zhang_corresponding_author": false,
+    "doi": "10.1063/5.0247145",
+    "doi_url": "https://doi.org/10.1063/5.0247145",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1063/5.0247145",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://pubs.aip.org/pof/article/37/1/015142/3329275/The-in-depth-analysis-and-validation-of-momentum",
+    "published_online": "2025-01-03",
+    "issue_date": "2025-01-01"
+  },
+  {
+    "id": "pub-20",
+    "authors": "Qifan Wang, Shengqi Zhang, Taipeng Guo, Wenxuan Sha, Keyang Li, Zhentao Liu*",
+    "year": 2024,
+    "title": "Enhancing plate-fin heat exchanger hydraulic thermal performance through air-side fin optimization based on pseudo-3D topology optimization",
+    "journal": "Applied Thermal Engineering",
+    "details": "252: 123642",
+    "citation": "Qifan Wang, Shengqi Zhang, Taipeng Guo, Wenxuan Sha, Keyang Li, Zhentao Liu*, (2024). Enhancing plate-fin heat exchanger hydraulic thermal performance through air-side fin optimization based on pseudo-3D topology optimization. Applied Thermal Engineering, 252: 123642.",
+    "authors_list": [
+      "Qifan Wang",
+      "Shengqi Zhang",
+      "Taipeng Guo",
+      "Wenxuan Sha",
+      "Keyang Li",
+      "Zhentao Liu"
+    ],
+    "corresponding_authors": [
+      "Zhentao Liu"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 21,
+      "range": "A21:P21"
+    },
+    "spreadsheet_date": "2024-09-01",
+    "status": "published",
+    "first_author": "Qifan Wang",
+    "shengqi_zhang_first_author": false,
+    "shengqi_zhang_corresponding_author": false,
+    "doi": "10.1016/j.applthermaleng.2024.123642",
+    "doi_url": "https://doi.org/10.1016/j.applthermaleng.2024.123642",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1016/j.applthermaleng.2024.123642",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S1359431124013103",
+    "issue_date": "2024-09"
+  },
+  {
+    "id": "pub-21",
+    "authors": "Jin Hu, Shengqi Zhang, Zhishun Yang, Lihua Chen, Zhenhua Xia*",
+    "year": 2024,
+    "title": "Numerical investigations of melting process with sidewall heating under various control parameters",
+    "journal": "International Journal of Heat and Mass Transfer",
+    "details": "227: 125529",
+    "citation": "Jin Hu, Shengqi Zhang, Zhishun Yang, Lihua Chen, Zhenhua Xia*, (2024). Numerical investigations of melting process with sidewall heating under various control parameters. International Journal of Heat and Mass Transfer, 227: 125529.",
+    "authors_list": [
+      "Jin Hu",
+      "Shengqi Zhang",
+      "Zhishun Yang",
+      "Lihua Chen",
+      "Zhenhua Xia"
+    ],
+    "corresponding_authors": [
+      "Zhenhua Xia"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 22,
+      "range": "A22:P22"
+    },
+    "spreadsheet_date": "2024-08-01",
+    "status": "published",
+    "first_author": "Jin Hu",
+    "shengqi_zhang_first_author": false,
+    "shengqi_zhang_corresponding_author": false,
+    "doi": "10.1016/j.ijheatmasstransfer.2024.125529",
+    "doi_url": "https://doi.org/10.1016/j.ijheatmasstransfer.2024.125529",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1016/j.ijheatmasstransfer.2024.125529",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S0017931024003600",
+    "issue_date": "2024-08"
+  },
+  {
+    "id": "pub-22",
+    "authors": "Jin Hu, Shengqi Zhang, Zhenhua Xia*",
+    "year": 2024,
+    "title": "Flow reversal and multiple states in turbulent Rayleigh-Bénard convection with partially isothermal plates",
+    "journal": "Journal of Fluid Mechanics",
+    "details": "987: A9",
+    "citation": "Jin Hu, Shengqi Zhang, Zhenhua Xia*, (2024). Flow reversal and multiple states in turbulent Rayleigh-Bénard convection with partially isothermal plates. Journal of Fluid Mechanics, 987: A9.",
+    "authors_list": [
+      "Jin Hu",
+      "Shengqi Zhang",
+      "Zhenhua Xia"
+    ],
+    "corresponding_authors": [
+      "Zhenhua Xia"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 23,
+      "range": "A23:P23"
+    },
+    "spreadsheet_date": "2024-05-25",
+    "status": "published",
+    "first_author": "Jin Hu",
+    "shengqi_zhang_first_author": false,
+    "shengqi_zhang_corresponding_author": false,
+    "doi": "10.1017/jfm.2024.388",
+    "doi_url": "https://doi.org/10.1017/jfm.2024.388",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1017/jfm.2024.388",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://www.cambridge.org/core/product/identifier/S0022112024003884/type/journal_article",
+    "published_online": "2024-05-13",
+    "issue_date": "2024-05-25"
+  },
+  {
+    "id": "pub-23",
+    "authors": "Shengqi Zhang*, Chao Sun",
+    "year": 2024,
+    "title": "Twin forces: similarity between rotation and stratification effects on wall turbulence",
+    "journal": "Journal of Fluid Mechanics",
+    "details": "979: A45",
+    "citation": "Shengqi Zhang*, Chao Sun, (2024). Twin forces: similarity between rotation and stratification effects on wall turbulence. Journal of Fluid Mechanics, 979: A45.",
+    "doi": "10.1017/jfm.2023.1101",
+    "pdf": "files/papers/twin-forces-2024.pdf",
+    "source_pdf": "Twin forces similarity between rotation and stratification effects on wall turbulence.pdf",
+    "source_page": 1,
+    "abstract_summary": {
+      "zh": "以平面 Couette 湍流为背景，研究旋转与分层效应的定量类比，建立综合 Richardson 数与热量、动量输运之间的联系。",
+      "en": "Investigates quantitative similarities between rotation and stratification in plane Couette turbulence using a combined Richardson number and transport measures."
+    },
+    "authors_list": [
+      "Shengqi Zhang",
+      "Chao Sun"
+    ],
+    "corresponding_authors": [
+      "Shengqi Zhang"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 24,
+      "range": "A24:P24"
+    },
+    "spreadsheet_date": "2024-01-25",
+    "status": "published",
+    "first_author": "Shengqi Zhang",
+    "shengqi_zhang_first_author": true,
+    "shengqi_zhang_corresponding_author": true,
+    "doi_url": "https://doi.org/10.1017/jfm.2023.1101",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1017/jfm.2023.1101",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://www.cambridge.org/core/product/identifier/S0022112023011011/type/journal_article",
+    "published_online": "2024-01-22",
+    "issue_date": "2024-01-25"
+  },
+  {
+    "id": "pub-24",
+    "authors": "Shengqi Zhang, Zhenhua Xia*, Shiyi Chen",
+    "year": 2024,
+    "title": "Enhancing large-scale motions and turbulent transport in rotating plane Poiseuille flow",
+    "journal": "Journal of Fluid Mechanics",
+    "details": "979: A43",
+    "citation": "Shengqi Zhang, Zhenhua Xia*, Shiyi Chen, (2024). Enhancing large-scale motions and turbulent transport in rotating plane Poiseuille flow. Journal of Fluid Mechanics, 979: A43.",
+    "doi": "10.1017/jfm.2023.1091",
+    "pdf": "files/papers/rppf-transport-2024.pdf",
+    "source_pdf": "Enhancing large-scale motions and turbulent transport in rotating plane Poiseuille flow.pdf",
+    "source_page": 1,
+    "abstract_summary": {
+      "zh": "利用旋转 Poiseuille 流不稳定侧的注入与抽吸调控羽流，增强大尺度运动与被动标量的湍流输运。",
+      "en": "Enhances large-scale plume currents and passive-scalar transport using injection and suction on the unstable wall of rotating Poiseuille flow."
+    },
+    "authors_list": [
+      "Shengqi Zhang",
+      "Zhenhua Xia",
+      "Shiyi Chen"
+    ],
+    "corresponding_authors": [
+      "Zhenhua Xia"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 25,
+      "range": "A25:P25"
+    },
+    "spreadsheet_date": "2024-01-25",
+    "status": "published",
+    "first_author": "Shengqi Zhang",
+    "shengqi_zhang_first_author": true,
+    "shengqi_zhang_corresponding_author": false,
+    "doi_url": "https://doi.org/10.1017/jfm.2023.1091",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1017/jfm.2023.1091",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://www.cambridge.org/core/product/identifier/S0022112023010911/type/journal_article",
+    "published_online": "2024-01-22",
+    "issue_date": "2024-01-25"
+  },
+  {
+    "id": "pub-25",
+    "authors": "Qifan Wang, Shengqi Zhang, Yu Zhang, Jiahong Fu, Zhentao Liu*",
+    "year": 2023,
+    "title": "Enhancing performance of nanofluid mini-channel heat sinks through machine learning and multi-objective optimization of operating parameters",
+    "journal": "International Journal of Heat and Mass Transfer",
+    "details": "210: 124204",
+    "citation": "Qifan Wang, Shengqi Zhang, Yu Zhang, Jiahong Fu, Zhentao Liu*, (2023). Enhancing performance of nanofluid mini-channel heat sinks through machine learning and multi-objective optimization of operating parameters. International Journal of Heat and Mass Transfer, 210: 124204.",
+    "authors_list": [
+      "Qifan Wang",
+      "Shengqi Zhang",
+      "Yu Zhang",
+      "Jiahong Fu",
+      "Zhentao Liu"
+    ],
+    "corresponding_authors": [
+      "Zhentao Liu"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 26,
+      "range": "A26:P26"
+    },
+    "spreadsheet_date": "2023-08-15",
+    "status": "published",
+    "first_author": "Qifan Wang",
+    "shengqi_zhang_first_author": false,
+    "shengqi_zhang_corresponding_author": false,
+    "doi": "10.1016/j.ijheatmasstransfer.2023.124204",
+    "doi_url": "https://doi.org/10.1016/j.ijheatmasstransfer.2023.124204",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1016/j.ijheatmasstransfer.2023.124204",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S0017931023003563",
+    "issue_date": "2023-08"
+  },
+  {
+    "id": "pub-26",
+    "authors": "Jun Lai, Tao Chen, Shengqi Zhang, Zuoli Xiao, Shiyi Chen, Lian-Ping Wang*",
+    "year": 2022,
+    "title": "A systematic study of a droplet breakup process in decaying homogeneous isotropic turbulence using a mesoscopic simulation approach",
+    "journal": "Journal of Turbulence",
+    "details": "23(11-12): 567-614",
+    "citation": "Jun Lai, Tao Chen, Shengqi Zhang, Zuoli Xiao, Shiyi Chen, Lian-Ping Wang*, (2022). A systematic study of a droplet breakup process in decaying homogeneous isotropic turbulence using a mesoscopic simulation approach. Journal of Turbulence, 23(11-12): 567-614.",
+    "authors_list": [
+      "Jun Lai",
+      "Tao Chen",
+      "Shengqi Zhang",
+      "Zuoli Xiao",
+      "Shiyi Chen",
+      "Lian-Ping Wang"
+    ],
+    "corresponding_authors": [
+      "Lian-Ping Wang"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 27,
+      "range": "A27:P27"
+    },
+    "spreadsheet_date": "2022-11-20",
+    "status": "published",
+    "first_author": "Jun Lai",
+    "shengqi_zhang_first_author": false,
+    "shengqi_zhang_corresponding_author": false,
+    "doi": "10.1080/14685248.2022.2146700",
+    "doi_url": "https://doi.org/10.1080/14685248.2022.2146700",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1080/14685248.2022.2146700",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://www.tandfonline.com/doi/full/10.1080/14685248.2022.2146700",
+    "published_online": "2022-11-20",
+    "issue_date": "2022-12-02"
+  },
+  {
+    "id": "pub-27",
+    "authors": "Shengqi Zhang, Zhenhua Xia*, Shiyi Chen",
+    "year": 2022,
+    "title": "Flow structures in spanwise rotating plane Poiseuille flow based on thermal analogy",
+    "journal": "Journal of Fluid Mechanics",
+    "details": "933: A24",
+    "citation": "Shengqi Zhang, Zhenhua Xia*, Shiyi Chen, (2022). Flow structures in spanwise rotating plane Poiseuille flow based on thermal analogy. Journal of Fluid Mechanics, 933: A24.",
+    "doi": "10.1017/jfm.2021.1073",
+    "pdf": "files/papers/rppf-structures-2022.pdf",
+    "source_pdf": "Flow structures in spanwise rotating plane Poiseuille flow based on thermal analogy.pdf",
+    "source_page": 1,
+    "abstract_summary": {
+      "zh": "基于热类比识别旋转壁湍流中的羽流、惯性波和羽流流束，解释流动统计及不同结构的标量输运能力。",
+      "en": "Identifies plumes, inertial waves, and plume currents through a thermal analogy and connects these structures to turbulent statistics and scalar transport."
+    },
+    "authors_list": [
+      "Shengqi Zhang",
+      "Zhenhua Xia",
+      "Shiyi Chen"
+    ],
+    "corresponding_authors": [
+      "Zhenhua Xia"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 28,
+      "range": "A28:P28"
+    },
+    "spreadsheet_date": "2022-02-25",
+    "status": "published",
+    "first_author": "Shengqi Zhang",
+    "shengqi_zhang_first_author": true,
+    "shengqi_zhang_corresponding_author": false,
+    "doi_url": "https://doi.org/10.1017/jfm.2021.1073",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1017/jfm.2021.1073",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://www.cambridge.org/core/product/identifier/S0022112021010739/type/journal_article",
+    "published_online": "2021-12-23",
+    "issue_date": "2022-02-25"
+  },
+  {
+    "id": "pub-28",
+    "authors": "Shengqi Zhang, Zhenhua Xia*, Shiyi Chen*",
+    "year": 2022,
+    "title": "Perturbation analysis of baroclinic torque in low-Mach-number flows",
+    "journal": "Journal of Fluid Mechanics",
+    "details": "930: A4",
+    "citation": "Shengqi Zhang, Zhenhua Xia*, Shiyi Chen*, (2022). Perturbation analysis of baroclinic torque in low-Mach-number flows. Journal of Fluid Mechanics, 930: A4.",
+    "doi": "10.1017/jfm.2021.896",
+    "pdf": "files/papers/baroclinic-2022.pdf",
+    "source_pdf": "Perturbation analysis of baroclinic torque in low-Mach-number flows.pdf",
+    "source_page": 1,
+    "abstract_summary": {
+      "zh": "对低马赫数流动的斜压转矩作摄动展开，建立浮力近似的误差定义，构造并验证新的浮力项。",
+      "en": "Develops a perturbation expansion of baroclinic torque to quantify buoyancy-approximation errors and construct new buoyancy terms for low-Mach-number flows."
+    },
+    "authors_list": [
+      "Shengqi Zhang",
+      "Zhenhua Xia",
+      "Shiyi Chen"
+    ],
+    "corresponding_authors": [
+      "Zhenhua Xia",
+      "Shiyi Chen"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 29,
+      "range": "A29:P29"
+    },
+    "spreadsheet_date": "2022-01-10",
+    "status": "published",
+    "first_author": "Shengqi Zhang",
+    "shengqi_zhang_first_author": true,
+    "shengqi_zhang_corresponding_author": false,
+    "doi_url": "https://doi.org/10.1017/jfm.2021.896",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1017/jfm.2021.896",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://www.cambridge.org/core/product/identifier/S002211202100896X/type/journal_article",
+    "published_online": "2021-11-03",
+    "issue_date": "2022-01-10"
+  },
+  {
+    "id": "pub-29",
+    "authors": "Shengqi Zhang, Xin Chen, Zhenhua Xia*, Heng-Dong Xi, Quan Zhou, Shiyi Chen*",
+    "year": 2021,
+    "title": "Stabilizing/destabilizing the large-scale circulation in turbulent Rayleigh–Bénard convection with sidewall temperature control",
+    "journal": "Journal of Fluid Mechanics",
+    "details": "915: A14",
+    "citation": "Shengqi Zhang, Xin Chen, Zhenhua Xia*, Heng-Dong Xi, Quan Zhou, Shiyi Chen*, (2021). Stabilizing/destabilizing the large-scale circulation in turbulent Rayleigh–Bénard convection with sidewall temperature control. Journal of Fluid Mechanics, 915: A14.",
+    "doi": "10.1017/jfm.2021.58",
+    "pdf": "files/papers/sidewall-control-2021.pdf",
+    "source_pdf": "Stabilizing & destabilizing the large-scale circulation in turbulent Rayleigh–Bénard convection with sidewall temperature control.pdf",
+    "source_page": 1,
+    "abstract_summary": {
+      "zh": "通过数值模拟与实验研究两点和四点侧壁控温，分析其对大尺度环流反转、环流强度和传热的影响。",
+      "en": "Studies two-point and four-point sidewall temperature control through simulations and experiments, linking circulation reversals to heat transfer and flow strength."
+    },
+    "authors_list": [
+      "Shengqi Zhang",
+      "Xin Chen",
+      "Zhenhua Xia",
+      "Heng-Dong Xi",
+      "Quan Zhou",
+      "Shiyi Chen"
+    ],
+    "corresponding_authors": [
+      "Zhenhua Xia",
+      "Shiyi Chen"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 30,
+      "range": "A30:P30"
+    },
+    "spreadsheet_date": "2021-05-25",
+    "status": "published",
+    "first_author": "Shengqi Zhang",
+    "shengqi_zhang_first_author": true,
+    "shengqi_zhang_corresponding_author": false,
+    "doi_url": "https://doi.org/10.1017/jfm.2021.58",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1017/jfm.2021.58",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://www.cambridge.org/core/product/identifier/S0022112021000586/type/journal_article",
+    "published_online": "2021-03-09",
+    "issue_date": "2021-05-25"
+  },
+  {
+    "id": "pub-30",
+    "authors": "Shengqi Zhang, Zhenhua Xia*, Shiyi Chen",
+    "year": 2021,
+    "title": "A CFD-aided Galerkin Method for Global Linear Instability Analysis",
+    "journal": "Communications in Computational Physics",
+    "details": "29(1): 128-147",
+    "citation": "Shengqi Zhang, Zhenhua Xia*, Shiyi Chen, (2021). A CFD-aided Galerkin Method for Global Linear Instability Analysis. Communications in Computational Physics, 29(1): 128-147.",
+    "doi": "10.4208/cicp.OA-2020-0041",
+    "pdf": "files/papers/cfd-galerkin-2021.pdf",
+    "source_pdf": "A CFD-aided Galerkin Method for Global Linear Instability Analysis.pdf",
+    "source_page": 1,
+    "abstract_summary": {
+      "zh": "将全局基函数展开与线性化 CFD 求解器结合，以较小矩阵开展复杂流动的全局线性稳定性分析。",
+      "en": "Combines global basis expansions with linearized CFD solvers to perform global linear stability analysis using compact matrices."
+    },
+    "authors_list": [
+      "Shengqi Zhang",
+      "Zhenhua Xia",
+      "Shiyi Chen"
+    ],
+    "corresponding_authors": [
+      "Zhenhua Xia"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 31,
+      "range": "A31:P31"
+    },
+    "spreadsheet_date": "2021-01-01",
+    "status": "published",
+    "first_author": "Shengqi Zhang",
+    "shengqi_zhang_first_author": true,
+    "shengqi_zhang_corresponding_author": false,
+    "doi_url": "https://doi.org/10.4208/cicp.OA-2020-0041",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.4208/cicp.OA-2020-0041",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://www.global-sci.com/cicp/article/view/6916",
+    "published_online": "2020-11-26"
+  },
+  {
+    "id": "pub-31",
+    "authors": "Shengqi Zhang, Zhenhua Xia*, Quan Zhou, Shiyi Chen*",
+    "year": 2020,
+    "title": "Controlling flow reversal in two-dimensional Rayleigh–Bénard convection",
+    "journal": "Journal of Fluid Mechanics",
+    "details": "891: R4",
+    "citation": "Shengqi Zhang, Zhenhua Xia*, Quan Zhou, Shiyi Chen*, (2020). Controlling flow reversal in two-dimensional Rayleigh–Bénard convection. Journal of Fluid Mechanics, 891: R4.",
+    "doi": "10.1017/jfm.2020.210",
+    "pdf": "files/papers/flow-reversal-2020.pdf",
+    "source_pdf": "Controlling flow reversal in two-dimensional Rayleigh–Bénard convection.pdf",
+    "source_page": 1,
+    "abstract_summary": {
+      "zh": "通过侧壁局部恒温区域控制二维 Rayleigh–Bénard 对流中的大尺度环流反转，揭示控制位置对抑制和增强反转的作用。",
+      "en": "Uses localized sidewall temperature control to suppress or enhance large-scale circulation reversals in two-dimensional Rayleigh–Bénard convection."
+    },
+    "authors_list": [
+      "Shengqi Zhang",
+      "Zhenhua Xia",
+      "Quan Zhou",
+      "Shiyi Chen"
+    ],
+    "corresponding_authors": [
+      "Zhenhua Xia",
+      "Shiyi Chen"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 32,
+      "range": "A32:P32"
+    },
+    "spreadsheet_date": "2020-05-25",
+    "status": "published",
+    "first_author": "Shengqi Zhang",
+    "shengqi_zhang_first_author": true,
+    "shengqi_zhang_corresponding_author": false,
+    "doi_url": "https://doi.org/10.1017/jfm.2020.210",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1017/jfm.2020.210",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://www.cambridge.org/core/product/identifier/S0022112020002104/type/journal_article",
+    "published_online": "2020-03-25",
+    "issue_date": "2020-05-25"
+  },
+  {
+    "id": "pub-32",
+    "authors": "Shengqi Zhang, Zhenhua Xia*, Yipeng Shi, Shiyi Chen*",
+    "year": 2019,
+    "title": "A two-dimensional-three-component model for spanwise rotating plane Poiseuille flow",
+    "journal": "Journal of Fluid Mechanics",
+    "details": "880: 478-496",
+    "citation": "Shengqi Zhang, Zhenhua Xia*, Yipeng Shi, Shiyi Chen*, (2019). A two-dimensional-three-component model for spanwise rotating plane Poiseuille flow. Journal of Fluid Mechanics, 880: 478-496.",
+    "doi": "10.1017/jfm.2019.715",
+    "pdf": "files/papers/rppf-2d3c-2019.pdf",
+    "source_pdf": "A two-dimensional-three-component model for spanwise rotating plane Poiseuille flow.pdf",
+    "source_page": 1,
+    "abstract_summary": {
+      "zh": "构建展向旋转平面 Poiseuille 流的二维三分量模型，建立与热对流的等价关系并分析稳定性及湍流统计。",
+      "en": "Develops a two-dimensional, three-component model for rotating Poiseuille flow and uses its thermal analogy to study stability and turbulent statistics."
+    },
+    "authors_list": [
+      "Shengqi Zhang",
+      "Zhenhua Xia",
+      "Yipeng Shi",
+      "Shiyi Chen"
+    ],
+    "corresponding_authors": [
+      "Zhenhua Xia",
+      "Shiyi Chen"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 33,
+      "range": "A33:P33"
+    },
+    "spreadsheet_date": "2019-12-10",
+    "status": "published",
+    "first_author": "Shengqi Zhang",
+    "shengqi_zhang_first_author": true,
+    "shengqi_zhang_corresponding_author": false,
+    "doi_url": "https://doi.org/10.1017/jfm.2019.715",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1017/jfm.2019.715",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://www.cambridge.org/core/product/identifier/S0022112019007158/type/journal_article",
+    "published_online": "2019-10-09",
+    "issue_date": "2019-12-10"
+  },
+  {
+    "id": "pub-33",
+    "authors": "Liren Li, Yipeng Shi, Shengqi Zhang, Lian-Ping Wang, Zhenhua Xia*",
+    "year": 2019,
+    "title": "On the comparison between lattice boltzmann methods and spectral methods for DNS of incompressible turbulent channel flows on small domain size",
+    "journal": "Advances in Applied Mathematics and Mechanics",
+    "details": "11(3): 598-607",
+    "citation": "Liren Li, Yipeng Shi, Shengqi Zhang, Lian-Ping Wang, Zhenhua Xia*, (2019). On the comparison between lattice boltzmann methods and spectral methods for DNS of incompressible turbulent channel flows on small domain size. Advances in Applied Mathematics and Mechanics, 11(3): 598-607.",
+    "authors_list": [
+      "Liren Li",
+      "Yipeng Shi",
+      "Shengqi Zhang",
+      "Lian-Ping Wang",
+      "Zhenhua Xia"
+    ],
+    "corresponding_authors": [
+      "Zhenhua Xia"
+    ],
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 34,
+      "range": "A34:P34"
+    },
+    "spreadsheet_date": "2019-06-01",
+    "status": "published",
+    "first_author": "Liren Li",
+    "shengqi_zhang_first_author": false,
+    "shengqi_zhang_corresponding_author": false,
+    "doi": "10.4208/aamm.2018.s04",
+    "doi_url": "https://doi.org/10.4208/aamm.2018.s04",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.4208/aamm.2018.s04",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://www.global-sci.com/aamm/article/view/15515",
+    "published_online": "2019-04-16"
+  },
+  {
+    "title": "Flow field and heat transfer properties in turbulent convection with local heating condition at the bottom wall",
+    "authors": "Jin Hu, Shengqi Zhang, Zhenhua Xia*",
+    "authors_list": [
+      "Jin Hu",
+      "Shengqi Zhang",
+      "Zhenhua Xia"
+    ],
+    "corresponding_authors": [
+      "Zhenhua Xia"
+    ],
+    "year": 2022,
+    "journal": "Acta Aerodynamica Sinica",
+    "details": "40(2): 208-214",
+    "doi": "10.7638/kqdlxxb-2022.0008",
+    "spreadsheet_date": "2022-04-30",
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 38,
+      "range": "A38:P38"
+    },
+    "status": "published",
+    "id": "pub-34",
+    "first_author": "Jin Hu",
+    "shengqi_zhang_first_author": false,
+    "shengqi_zhang_corresponding_author": false,
+    "doi_url": "https://doi.org/10.7638/kqdlxxb-2022.0008",
+    "doi_verification": {
+      "method": "official journal article PDF and table of contents",
+      "url": "https://kqdlxxb.xml-journal.net/cn/article/pdf/preview/10.7638/kqdlxxb-2022.0008.pdf",
+      "checked": "2026-09-27",
+      "note": "Not indexed by the queried Crossref API; the DOI is printed on the official journal PDF."
+    },
+    "publisher_url": "https://kqdlxxb.xml-journal.net/article/doi/10.7638/kqdlxxb-2022.0008",
+    "title_zh": "底面局部加热条件下热湍流的流场变化及传热规律",
+    "journal_zh": "空气动力学学报",
+    "language": "zh",
+    "published_online": "2022-04-30",
+    "external_pdf": "https://kqdlxxb.xml-journal.net/cn/article/pdf/preview/10.7638/kqdlxxb-2022.0008.pdf",
+    "citation": "Jin Hu, Shengqi Zhang, Zhenhua Xia*, (2022). Flow field and heat transfer properties in turbulent convection with local heating condition at the bottom wall. Acta Aerodynamica Sinica, 40(2): 208-214."
+  },
+  {
+    "title": "Capturing the Baroclinic Effect in non-Boussinesq Gravity Currents",
+    "authors": "Shengqi Zhang, Zhenhua Xia*",
+    "authors_list": [
+      "Shengqi Zhang",
+      "Zhenhua Xia"
+    ],
+    "corresponding_authors": [
+      "Zhenhua Xia"
+    ],
+    "year": 2022,
+    "journal": "Theoretical and Applied Mechanics Letters",
+    "details": "12(1): 100313",
+    "doi": "10.1016/j.taml.2021.100313",
+    "spreadsheet_date": "2022-01-01",
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 39,
+      "range": "A39:P39"
+    },
+    "status": "published",
+    "id": "pub-35",
+    "first_author": "Shengqi Zhang",
+    "shengqi_zhang_first_author": true,
+    "shengqi_zhang_corresponding_author": false,
+    "doi_url": "https://doi.org/10.1016/j.taml.2021.100313",
+    "doi_verification": {
+      "method": "publisher-deposited Crossref metadata",
+      "url": "https://api.crossref.org/works/10.1016/j.taml.2021.100313",
+      "checked": "2026-09-27"
+    },
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S2095034921001203",
+    "issue_date": "2022-01",
+    "published_online": "2021-12-13",
+    "external_pdf": "https://pubs-en.cstam.org.cn/data/article/taml/preview/pdf/20220103.pdf",
+    "language": "en",
+    "external_source": {
+      "url": "https://pubs-en.cstam.org.cn/data/article/taml/preview/pdf/20220103.pdf",
+      "page": 1,
+      "note": "Official society-hosted article PDF confirms authors, DOI, online date and issue year."
+    },
+    "citation": "Shengqi Zhang, Zhenhua Xia*, (2022). Capturing the Baroclinic Effect in non-Boussinesq Gravity Currents. Theoretical and Applied Mechanics Letters, 12(1): 100313."
+  },
+  {
+    "title": "北京大学工学院新工科个性化人才培养模式探析——基于学生体验的视角",
+    "authors": "李咏梅, 周虹, 章盛祺",
+    "authors_list": [
+      "李咏梅",
+      "周虹",
+      "章盛祺"
+    ],
+    "corresponding_authors": [],
+    "year": 2019,
+    "journal": "高等工程教育研究",
+    "details": "06: 24-29",
+    "spreadsheet_date": "2019-11-28",
+    "source_spreadsheet": {
+      "file": "成果表格.xlsx",
+      "sheet": "论文",
+      "row": 40,
+      "range": "A40:P40"
+    },
+    "status": "published",
+    "id": "pub-36",
+    "first_author": "李咏梅",
+    "shengqi_zhang_first_author": false,
+    "shengqi_zhang_corresponding_author": false,
+    "language": "zh",
+    "publication_type": "education-research",
+    "external_source": {
+      "url": "https://mech.pku.edu.cn/jzyg/szdw/L/c542179710f14ad28f8eeeb66ddee915.htm",
+      "note": "Coauthor Yongmei Li’s official Peking University faculty page confirms author order, title, journal, year, issue and pages; no DOI supplied."
+    },
+    "citation": "李咏梅, 周虹, 章盛祺, (2019). 北京大学工学院新工科个性化人才培养模式探析——基于学生体验的视角. 高等工程教育研究, 06: 24-29."
+  }
+]
