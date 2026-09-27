@@ -1,3 +1,18 @@
+// Clean directory URLs work both at the domain root and in local subpath previews.
+// Legacy aliases navigate once; real pages only replace the address in history.
+if (window.location.protocol === 'http:' || window.location.protocol === 'https:') {
+  const redirect = document.querySelector('meta[name="redirect-target"]');
+  if (redirect) {
+    const destination = new URL(redirect.content, window.location.href);
+    destination.search = window.location.search;
+    destination.hash = window.location.hash;
+    if (destination.href !== window.location.href) window.location.replace(destination.href);
+  } else if (window.location.pathname.endsWith('/index.html')) {
+    const cleanPath = window.location.pathname.slice(0, -'index.html'.length);
+    window.history.replaceState(window.history.state, '', cleanPath + window.location.search + window.location.hash);
+  }
+}
+
 // Progressive enhancement: all publications remain readable without JavaScript.
 const search = document.querySelector('#publication-search');
 const year = document.querySelector('#publication-year');

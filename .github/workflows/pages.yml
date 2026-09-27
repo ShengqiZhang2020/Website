@@ -31,7 +31,7 @@ jobs:
       - name: Build website
         run: python build.py --site-url '${{ steps.pages.outputs.base_url }}'
       - name: Check generated website
-        run: python scripts/check_site.py
+        run: python scripts/check_site.py --site-url '${{ steps.pages.outputs.base_url }}'
       - name: Upload website artifact
         uses: actions/upload-pages-artifact@v4
         with:

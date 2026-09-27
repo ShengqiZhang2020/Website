@@ -1,7 +1,7 @@
 """Build Shengqi Zhang's bilingual academic website (Python 3.10+, no packages)."""
 from pathlib import Path
 from html import escape
-from urllib.parse import urlsplit
+from urllib.parse import urlsplit, urlunsplit
 import argparse
 import json
 import posixpath
@@ -36,11 +36,30 @@ def pick(lang, zh, en):
 
 
 def target(lang, page=''):
-    return f'{lang}/{page + "/" if page else ""}index.html'
+    """Return the real file; public page links use its containing directory."""
+    prefix = 'en/' if lang == 'en' else ''
+    return f'{prefix}{page + "/" if page else ""}index.html'
+
+
+def route(lang, page=''):
+    return target(lang, page).removesuffix('index.html')
+
+
+def public_url(lang, page=''):
+    return f'{SITE}/{route(lang, page)}'
 
 
 def rel(current, path):
-    return posixpath.relpath(path, posixpath.dirname(current) or '.')
+    """Resolve internal files relative to the page, hiding index.html in URLs."""
+    parts = urlsplit(path)
+    if parts.scheme or parts.netloc:
+        return path
+    is_index = parts.path == 'index.html' or parts.path.endswith('/index.html')
+    destination = parts.path.removesuffix('index.html') if is_index else parts.path
+    relative = posixpath.relpath(destination or '.', posixpath.dirname(current) or '.')
+    if is_index:
+        relative += '/'
+    return urlunsplit(('', '', relative, parts.query, parts.fragment))
 
 
 def a(current, path, text, cls=''):
@@ -176,14 +195,14 @@ def layout(lang, page, content):
     description = tr(P['biography'], lang)
     metadata = ''
     if SITE:
-        metadata += f'<link rel="canonical" href="{esc(SITE)}/{current}">'
+        metadata += f'<link rel="canonical" href="{esc(public_url(lang, page))}">'
         for loc in ('zh', 'en'):
-            metadata += f'<link rel="alternate" hreflang="{pick(loc, "zh-CN", "en")}" href="{esc(SITE)}/{target(loc, page)}">'
-        metadata += f'<link rel="alternate" hreflang="x-default" href="{esc(SITE)}/{target("zh", page)}">'
-        metadata += f'<meta property="og:url" content="{esc(SITE)}/{current}"><meta property="og:image" content="{esc(SITE)}/images/shengqi-zhang.jpg">'
+            metadata += f'<link rel="alternate" hreflang="{pick(loc, "zh-CN", "en")}" href="{esc(public_url(loc, page))}">'
+        metadata += f'<link rel="alternate" hreflang="x-default" href="{esc(public_url("zh", page))}">'
+        metadata += f'<meta property="og:url" content="{esc(public_url(lang, page))}"><meta property="og:image" content="{esc(SITE)}/images/shengqi-zhang.jpg">'
     person = {'@context': 'https://schema.org', '@type': 'Person', 'name': P['name']['en'], 'alternateName': P['name']['zh'], 'jobTitle': P['title']['en'], 'affiliation': {'@type': 'Organization', 'name': P['institution']['en']}, 'sameAs': [p['url'] for p in CONFIG['profiles']]}
     if SITE:
-        person['url'] = f'{SITE}/{target(lang)}'
+        person['url'] = public_url(lang)
         person['image'] = f'{SITE}/images/shengqi-zhang.jpg'
     metadata += '<script type="application/ld+json">' + json.dumps(person, ensure_ascii=False).replace('<', '\\u003c') + '</script>'
     roles = P['title'][lang].rsplit('、' if lang == 'zh' else ', ', 1)
@@ -219,12 +238,25 @@ def write(path, text):
     GENERATED.append(path)
 
 
+def write_alias(path, lang, page=''):
+    """Keep old bookmarks working without advertising duplicate content."""
+    destination = rel(path, target(lang, page))
+    canonical = f'<link rel="canonical" href="{esc(public_url(lang, page))}">' if SITE else ''
+    write(path, f'''<!doctype html><html lang="{pick(lang, 'zh-CN', 'en')}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><meta name="redirect-target" content="{esc(destination)}">{canonical}<title>Shengqi Zhang · 章盛祺</title><script src="{esc(rel(path, 'assets/site.js'))}" defer></script><noscript><meta http-equiv="refresh" content="0;url={esc(destination)}"></noscript></head><body><p><a href="{esc(destination)}">{pick(lang, '前往新页面 →', 'Continue to the new page →')}</a></p></body></html>''')
+
+
 for lang in ('zh', 'en'):
     for page, renderer in [('', home), ('biography', biography), ('research', research), ('publications', publications), ('projects', projects), ('activities', activities)]:
         current = target(lang, page)
         write(current, layout(lang, page, renderer(lang, current)))
-write('index.html', '<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>章盛祺 · Shengqi Zhang</title><meta http-equiv="refresh" content="0;url=zh/index.html"></head><body><a href="zh/index.html">中文主页</a> · <a href="en/index.html">English homepage</a></body></html>')
-write('404.html', f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><title>页面未找到 · Shengqi Zhang</title><style>body{{font:18px/1.8 system-ui,sans-serif;background:#f4f4f4;color:#3c3b3b;margin:12vh auto;padding:24px;max-width:600px}}a{{color:#197e76}}</style></head><body><p>404 · SHENGQI ZHANG</p><h1>页面未找到</h1><p>This page could not be found.</p><p><a href="{BASE}/zh/index.html">返回中文主页 →</a></p><p><a href="{BASE}/en/index.html">English homepage →</a></p></body></html>''')
+# The root is the actual Chinese home; these are compatibility routes only.
+for page, _, _ in NAV:
+    suffix = f'{page}/' if page else ''
+    write_alias(f'zh/{suffix}index.html', 'zh', page)
+    for lang in ('zh', 'en'):
+        write_alias(f'Website/{lang}/{suffix}index.html', lang, page)
+write_alias('Website/index.html', 'zh')
+write('404.html', f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><title>页面未找到 · Shengqi Zhang</title><style>body{{font:18px/1.8 system-ui,sans-serif;background:#f4f4f4;color:#3c3b3b;margin:12vh auto;padding:24px;max-width:600px}}a{{color:#197e76}}</style></head><body><p>404 · SHENGQI ZHANG</p><h1>页面未找到</h1><p>This page could not be found.</p><p><a href="{BASE}/">返回中文主页 →</a></p><p><a href="{BASE}/en/">English homepage →</a></p></body></html>''')
 
 
 def bibtex(paper):
@@ -291,7 +323,7 @@ shutil.copy2(ROOT / 'images/shengqi-zhang.jpg', dist / 'images/shengqi-zhang.jpg
 shutil.copy2(ROOT / 'favicon.svg', dist / 'favicon.svg')
 (dist / '.nojekyll').touch()
 if SITE:
-    urls = ''.join(f'<url><loc>{esc(SITE)}/{target(lang, page)}</loc></url>' for lang in ('zh', 'en') for page, _, _ in NAV)
+    urls = ''.join(f'<url><loc>{esc(public_url(lang, page))}</loc></url>' for lang in ('zh', 'en') for page, _, _ in NAV)
     (dist / 'sitemap.xml').write_text(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>', encoding='utf-8')
     (dist / 'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n', encoding='utf-8')
 else:
