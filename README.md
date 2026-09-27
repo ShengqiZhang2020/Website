@@ -1,6 +1,6 @@
 # 章盛祺个人学术网站
 
-仓库：[ShengqiZhang2020/Website](https://github.com/ShengqiZhang2020/Website)。GitHub Pages 目标网址：[shengqizhang2020.github.io/Website](https://shengqizhang2020.github.io/Website/)。本地目录为 `Website`。
+仓库：[ShengqiZhang2020/Website](https://github.com/ShengqiZhang2020/Website)。网站地址：[shengqizhang2020.github.io/Website](https://shengqizhang2020.github.io/Website/)。本地目录为 `Website`。
 
 本项目基于 [JackYansongLi/shiyi-chen-web](https://github.com/JackYansongLi/shiyi-chen-web) 完整克隆并保留 Git 历史，按本人的中英文简历、成果表格及论文 PDF 制作中英文个人学术网站。参考仓库提供的是 Astro 构建后的静态文件；本项目新增 Python 标准库生成器，维护内容无需安装 npm 依赖。
 
@@ -70,7 +70,9 @@ git commit -m "Update Shengqi Zhang personal academic website"
 git push -u origin main
 ```
 
-在自己的仓库进入 **Settings → Pages → Build and deployment → Source**，选择 **GitHub Actions**。随后在 **Actions → Deploy personal website to GitHub Pages → Run workflow** 手动运行一次；此后向 `main` 推送会自动部署。
+本仓库已启用 GitHub Pages，发布来源为 **GitHub Actions**；向 `main` 推送会自动部署。需要重新发布时，可在 **Actions → Deploy personal website to GitHub Pages → Run workflow** 手动运行。部署状态见 [Actions](https://github.com/ShengqiZhang2020/Website/actions/workflows/pages.yml)。
+
+若迁移到其他仓库，在 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**，再运行工作流。
 
 工作流构建、检查并上传 `dist/`，然后部署到 GitHub Pages。它从 Pages 配置取得真实基础网址，支持 `/Website` 项目路径，不执行 Git 推送。部署结果及访问网址显示在工作流和 Pages 设置中。配置方式参考 [GitHub 官方文档](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。
 
