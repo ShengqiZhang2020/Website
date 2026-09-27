@@ -2,7 +2,7 @@
 
 仓库：[ShengqiZhang2020/shengqizhang2020.github.io](https://github.com/ShengqiZhang2020/shengqizhang2020.github.io)。网站地址：[shengqizhang2020.github.io](https://shengqizhang2020.github.io/)。本地目录为 `Website`。
 
-中文首页直接位于 `/`，其他中文页面使用 `/biography/`、`/research/`、`/publications/`、`/projects/`、`/activities/`；英文页面以 `/en/` 开头。页面地址均使用目录形式，不显示 `.html`。旧 `/zh/` 和 `/Website/` 页面保留兼容跳转。
+英文首页直接位于 `/`，其他英文页面使用 `/biography/`、`/research/`、`/publications/`、`/projects/`、`/activities/`；中文页面位于 `/zh/` 及其子路径。页面地址均使用目录形式，不显示 `.html`，页面本身不执行 redirect。
 
 本项目基于 [JackYansongLi/shiyi-chen-web](https://github.com/JackYansongLi/shiyi-chen-web) 完整克隆并保留 Git 历史，按本人的中英文简历、成果表格及论文 PDF 制作中英文个人学术网站。参考仓库提供的是 Astro 构建后的静态文件；本项目新增 Python 标准库生成器，维护内容无需安装 npm 依赖。
 
@@ -16,7 +16,7 @@ python scripts/check_site.py --site-url=
 python -m http.server 8000 --directory dist
 ```
 
-打开 <http://localhost:8000/>，按 `Ctrl+C` 停止服务。`--site-url=` 将本次构建的发布网址设为空，适合在本机根路径预览。
+打开 <http://localhost:8000/>，按 `Ctrl+C` 停止服务。根路径直接显示英文主页；`--site-url=` 将本次构建的发布网址设为空，适合在本机根路径预览。
 
 正式构建使用配置中的 Pages 网址：
 
@@ -30,7 +30,7 @@ python build.py
 python build.py --site-url https://shengqizhang2020.github.io
 ```
 
-生成器更新根目录及各页面目录下的 `index.html`，同时生成供发布使用的 `dist/`。这些文件负责响应目录网址，导航链接不会包含文件名。`dist/` 已被 Git 忽略；工作流在 GitHub 重新构建，因此无需上传它。
+生成器更新根目录、`zh/` 及各页面目录下的 `index.html`，同时生成供发布使用的 `dist/`。这些文件负责响应目录网址，导航链接不会包含文件名。`dist/` 已被 Git 忽略；工作流在 GitHub 重新构建，因此无需上传它。
 
 ## 内容维护
 
