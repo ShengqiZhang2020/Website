@@ -25,16 +25,10 @@ base = unquote(site_parts.path).rstrip('/') if site else ''
 dist_root = DIST.resolve()
 sections = ('', 'biography', 'research', 'publications', 'projects', 'activities')
 content_routes = {
-    ('/' if lang == 'zh' else '/en/') + (section + '/' if section else ''): lang
+    ('/' if lang == 'en' else '/zh/') + (section + '/' if section else ''): lang
     for lang in ('zh', 'en') for section in sections
 }
 redirect_routes = {}
-for section in sections:
-    suffix = section + '/' if section else ''
-    redirect_routes['/zh/' + suffix] = '/' + suffix
-    redirect_routes['/Website/zh/' + suffix] = '/' + suffix
-    redirect_routes['/Website/en/' + suffix] = '/en/' + suffix
-redirect_routes['/Website/'] = '/'
 
 
 def route_file(route):
@@ -205,7 +199,7 @@ papers = json.loads((ROOT / 'data/publications.json').read_text(encoding='utf-8'
 expected_ids = {p['id'] for p in papers}
 assert len(expected_ids) == len(papers), 'Publication IDs must be unique'
 for lang in ('zh', 'en'):
-    prefix = '/' if lang == 'zh' else '/en/'
+    prefix = '/' if lang == 'en' else '/zh/'
     publication_page = pages.get(route_file(prefix + 'publications/'))
     actual = publication_page.publications if publication_page else []
     if len(actual) != len(papers) or set(actual) != expected_ids:
