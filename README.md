@@ -39,7 +39,6 @@ python build.py --site-url https://shengqizhangEIT.github.io
 | 文件 | 用途 |
 | --- | --- |
 | `data/profile.json` | 中英文个人资料、教育经历、项目与学术活动 |
-| `data/attendance.json` | 成果表格中明确记载本人参会的9条会议交流记录 |
 | `data/publications.json` | 唯一的论文数据来源，包含作者、年份、DOI 和本地 PDF 路径 |
 | `data/research.json` | 研究方向及相关论文 ID |
 | `data/site.json` | 正式网址、仓库网址、三个学术主页链接、内容年份及代表论文 ID |
