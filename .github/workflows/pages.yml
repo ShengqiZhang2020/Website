@@ -29,9 +29,9 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Build website
-        run: python build.py --site-url 'https://shengqizhang.github.io'
+        run: python build.py --site-url 'https://shengqizhangEIT.github.io'
       - name: Check generated website
-        run: python scripts/check_site.py --site-url 'https://shengqizhang.github.io'
+        run: python scripts/check_site.py --site-url 'https://shengqizhangEIT.github.io'
       - name: Upload website artifact
         uses: actions/upload-pages-artifact@v4
         with:
