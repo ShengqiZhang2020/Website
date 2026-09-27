@@ -36,8 +36,8 @@
     }
   ],
   "biography": {
-    "zh": "章盛祺，宁波东方理工大学助理教授（PI）、副研究员、博士生导师。2018年获北京大学理论与应用力学本科学位，2022年获北京大学流体力学博士学位，师从陈十一院士。研究方向包括湍流、传热传质、多相流和智能科学计算。",
-    "en": "Shengqi Zhang is an Assistant Professor and PhD Supervisor at Eastern Institute of Technology, Ningbo, China. He received his B.S. in Theoretical and Applied Mechanics from Peking University in 2018 and his Ph.D. in Fluid Mechanics from Peking University in 2022, advised by Prof. Shiyi Chen. His research interests include turbulence, heat & mass transfer, multiphase flows, and AI-empowered scientific computing."
+    "zh": "章盛祺，宁波东方理工大学工学部助理教授、博士生导师。本科和博士毕业于北京大学力学系，师从陈十一院士。研究兴趣包括流体物理与科学计算，主要针对多物理过程开发理论分析与降阶建模方法。2019年至今在流体力学与计算物理等领域发表一作或通讯论文12篇，荣获浙江省高层次人才、宁波市领军人才、北京市优秀博士论文等荣誉，主持国自然青年科学基金、国自然集成项目课题和国家科技重大专项子课题等。",
+    "en": "Shengqi Zhang is an Assistant Professor in the College of Engineering at the Eastern Institute of Technology, Ningbo, China. He obtained his B.S. and Ph.D. degrees from Peking University, under the supervision of Prof. Shiyi Chen. His research focuses on fluid mechanics and scientific computing, mainly developing theoretical analysis and reduced-order modeling methods for multiphysics systems. Since 2019, he has published 12 first-author or corresponding-author papers in leading journals in fluid mechanics and computational physics. He has received honors including High-level Talent of Zhejiang Province, Leading Talent of Ningbo, and Excellent PhD Dissertation of Beijing, and serves as Principal Investigator of projects including the NSFC Young Scientists Fund, an NSFC Joint Fund subproject, and a National Science and Technology Major Project subproject."
   },
   "education": [
     {
@@ -501,15 +501,15 @@
     }
   },
   "home_intro": {
-    "zh": "欢迎访问我的学术主页。我是章盛祺，宁波东方理工大学助理教授（PI）、副研究员、博士生导师。",
-    "en": "Welcome to my academic homepage. I am Shengqi Zhang, an Assistant Professor and PhD Supervisor at Eastern Institute of Technology, Ningbo, China."
+    "zh": "欢迎访问我的学术主页。我是章盛祺，宁波东方理工大学工学部助理教授、博士生导师。",
+    "en": "Welcome to my academic homepage. I am Shengqi Zhang, an Assistant Professor in the College of Engineering at the Eastern Institute of Technology, Ningbo, China."
   },
   "home_research": {
-    "zh": "我的研究围绕湍流、传热传质、多相流与智能科学计算展开，关注旋转与分层流动的物理机制、复杂介质中的输运规律，以及面向多物理场系统的高效计算方法。",
-    "en": "My research spans turbulence, heat & mass transfer, multiphase flows, and AI-empowered scientific computing. I study the physics of rotating and stratified flows, transport in complex media, and efficient computational methods for multiphysics systems."
+    "zh": "我的研究兴趣包括流体物理与科学计算，主要针对力、热、声、旋转、电磁等多物理过程耦合的流动，开发理论分析与降阶建模方法。",
+    "en": "My research focuses on fluid mechanics and scientific computing, especially theoretical analysis and reduced-order modeling methods for flows coupled with mechanical, thermal, acoustic, rotational, and electromagnetic phenomena."
   },
   "home_background": {
-    "zh": "我于2018年在北京大学获得理论与应用力学本科学位，2022年获得流体力学博士学位，师从陈十一院士。欢迎学术交流与合作。",
-    "en": "I received my B.S. in Theoretical and Applied Mechanics (2018) and Ph.D. in Fluid Mechanics (2022) from Peking University, advised by Prof. Shiyi Chen. I welcome academic exchange and collaboration."
+    "zh": "2019年至今，我已在流体力学与计算物理等领域发表一作或通讯论文12篇，获浙江省高层次人才、宁波市领军人才和北京市优秀博士论文等荣誉，并主持多项国家级科研项目。",
+    "en": "Since 2019, I have published 12 first-author or corresponding-author papers in leading journals in fluid mechanics and computational physics, received several honors, and led projects funded by national and regional research programs."
   }
 }
