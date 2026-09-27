@@ -62,7 +62,7 @@ python build.py --site-url https://shengqizhang2020.github.io/Website
 - `origin`：`https://github.com/ShengqiZhang2020/Website.git`，个人网站仓库。
 - `upstream`：`https://github.com/JackYansongLi/shiyi-chen-web.git`，保留参考来源。
 
-本次工作只修改本地文件，没有自动提交或推送。确认本地效果后，可自行执行：
+后续更新时，可在本地构建与检查通过后执行：
 
 ```powershell
 git add .
