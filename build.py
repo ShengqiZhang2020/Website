@@ -70,7 +70,7 @@ def cv_links(lang, current, cls=''):
     labels = [('zh', '中文简历 ↓'), ('en', 'English CV ↓')]
     if lang == 'en':
         labels.reverse()
-    return ''.join(a(current, f'files/cv-{locale}.docx', label, cls) for locale, label in labels)
+    return ''.join(a(current, f'files/cv-{locale}.pdf', label, cls) for locale, label in labels)
 
 
 def academic_links(cls=''):
@@ -172,13 +172,6 @@ def activities(lang, current):
     result = heading(pick(lang, '邀请报告', 'Invited talks')) + '<ol class="timeline">'
     for item in P['talks']:
         result += f'<li><span class="date">{item["date"]}</span><div><h3>{tr(item["title"], lang)}</h3><p>{tr(item["event"], lang)} · {tr(item["location"], lang)}</p></div></li>'
-    result += '</ol>' + heading(pick(lang, '会议交流', 'Conference participation')) + '<ol class="timeline">'
-    attendance = json.loads((ROOT / 'data/attendance.json').read_text(encoding='utf-8'))
-    for item in sorted(attendance, key=lambda i: i['start_date'], reverse=True):
-        date = item['start_date'].replace('-', '.')
-        if item.get('end_date') and item['end_date'] != item['start_date']:
-            date += ' – ' + item['end_date'].replace('-', '.')
-        result += f'<li><span class="date">{esc(date)}</span><div><h3>{tr(item["event"], lang)}</h3><p>{tr(item["location"], lang)}</p></div></li>'
     result += '</ol>' + heading(pick(lang, '学术服务', 'Academic service'))
     result += '<ul class="service-list">' + ''.join(f'<li>{tr(i, lang)}</li>' for i in P['service']['entries']) + '</ul>'
     result += heading(pick(lang, '期刊审稿', 'Journal reviewing'))
