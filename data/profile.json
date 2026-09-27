@@ -36,8 +36,8 @@
     }
   ],
   "biography": {
-    "zh": "章盛祺，宁波东方理工大学工学部助理教授、博士生导师。本科和博士毕业于北京大学力学系，师从陈十一院士。研究兴趣包括流体物理与科学计算，主要针对多物理过程开发理论分析与降阶建模方法。2019年至今在流体力学与计算物理等领域发表一作或通讯论文12篇，荣获浙江省高层次人才、宁波市领军人才、北京市优秀博士论文等荣誉，主持国自然青年科学基金、国自然集成项目课题和国家科技重大专项子课题等。",
-    "en": "Shengqi Zhang is an Assistant Professor in the College of Engineering at the Eastern Institute of Technology, Ningbo, China. He obtained his B.S. and Ph.D. degrees from Peking University, under the supervision of Prof. Shiyi Chen. His research focuses on fluid mechanics and scientific computing, mainly developing theoretical analysis and reduced-order modeling methods for multiphysics systems. Since 2019, he has published 12 first-author or corresponding-author papers in leading journals in fluid mechanics and computational physics. He has received honors including High-level Talent of Zhejiang Province, Leading Talent of Ningbo, and Excellent PhD Dissertation of Beijing, and serves as Principal Investigator of projects including the NSFC Young Scientists Fund, an NSFC Joint Fund subproject, and a National Science and Technology Major Project subproject."
+    "zh": "章盛祺，宁波东方理工大学工学部助理教授、博士生导师。本科和博士毕业于北京大学力学系，师从陈十一院士。章盛祺教授的研究兴趣包括流体物理与计算方法，主要针对多物理过程开发理论分析与降阶建模方法。2019年至今在SCI期刊发表一作或通讯论文18篇，荣获浙江省高层次人才、宁波市领军人才、北京市优秀博士论文等荣誉，主持国自然青年科学基金、国自然集成项目课题和国家科技重大专项子课题等。",
+    "en": "Shengqi Zhang is an Assistant Professor in the College of Engineering at the Eastern Institute of Technology, Ningbo, China. He obtained his B.S. and Ph.D. degrees from Peking University, under the supervision of Prof. Shiyi Chen. His research focuses on fluid mechanics and scientific computing, mainly developing theoretical analysis and reduced-order modeling methods for multiphysics systems. Since 2019, he has published 18 SCI-indexed papers as first or corresponding author. He has received honors including High-level Talent of Zhejiang Province, Leading Talent of Ningbo, and Excellent PhD Dissertation of Beijing, and serves as Principal Investigator of projects including the NSFC Young Scientists Fund, an NSFC Joint Fund subproject, and a National Science and Technology Major Project subproject."
   },
   "education": [
     {
@@ -507,9 +507,5 @@
   "home_research": {
     "zh": "我的研究兴趣包括流体物理与科学计算，主要针对力、热、声、旋转、电磁等多物理过程耦合的流动，开发理论分析与降阶建模方法。",
     "en": "My research focuses on fluid mechanics and scientific computing, especially theoretical analysis and reduced-order modeling methods for flows coupled with mechanical, thermal, acoustic, rotational, and electromagnetic phenomena."
-  },
-  "home_background": {
-    "zh": "2019年至今，我已在流体力学与计算物理等领域发表一作或通讯论文12篇，获浙江省高层次人才、宁波市领军人才和北京市优秀博士论文等荣誉，并主持多项国家级科研项目。",
-    "en": "Since 2019, I have published 12 first-author or corresponding-author papers in leading journals in fluid mechanics and computational physics, received several honors, and led projects funded by national and regional research programs."
   }
 }
