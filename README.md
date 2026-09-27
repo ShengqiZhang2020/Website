@@ -46,7 +46,7 @@ python build.py --site-url https://shengqizhangEIT.github.io
 | `build.py` | 页面布局与中英文呈现逻辑 |
 | `assets/` | 样式、交互脚本与实际使用的本地字体 |
 | `images/shengqi-zhang.jpg` | 本人肖像 |
-| `files/cv-zh.docx`、`files/cv-en.docx` | 中文、英文简历下载文件 |
+| `files/cv-zh.pdf`、`files/cv-en.pdf` | 中文、英文简历下载文件 |
 | `files/papers/` | 已提供的论文全文 |
 | `files/publications.bib`、`files/citations/` | 自动生成的全部论文及单篇论文 BibTeX 引用 |
 | `CONTENT_SOURCES.md` | 资料来源及论文全文匹配记录 |
