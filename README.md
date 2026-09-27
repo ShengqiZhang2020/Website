@@ -1,6 +1,6 @@
 # 章盛祺个人学术网站
 
-仓库：[ShengqiZhang/shengqizhang.github.io](https://github.com/ShengqiZhang/shengqizhang.github.io)。网站地址：[shengqizhang.github.io](https://shengqizhang.github.io/)。本地目录为 `Website`。
+仓库：[ShengqiZhangEIT/shengqizhang.github.io](https://github.com/ShengqiZhangEIT/shengqizhang.github.io)。网站地址：[shengqizhang.github.io](https://shengqizhang.github.io/)。本地目录为 `Website`。
 
 英文首页直接位于 `/`，其他英文页面使用 `/biography/`、`/research/`、`/publications/`、`/projects/`、`/activities/`；中文页面位于 `/zh/` 及其子路径。页面地址均使用目录形式，不显示 `.html`，页面本身不执行 redirect。
 
@@ -61,7 +61,7 @@ python build.py --site-url https://shengqizhang.github.io
 
 远端分工如下，可用 `git remote -v` 核对：
 
-- `origin`：`https://github.com/ShengqiZhang/shengqizhang.github.io.git`，个人网站仓库。
+- `origin`：`https://github.com/ShengqiZhangEIT/shengqizhang.github.io.git`，个人网站仓库。
 - `upstream`：`https://github.com/JackYansongLi/shiyi-chen-web.git`，保留参考来源。
 
 后续更新时，可在本地构建与检查通过后执行：
@@ -72,11 +72,11 @@ git commit -m "Update Shengqi Zhang personal academic website"
 git push -u origin main
 ```
 
-本仓库已启用 GitHub Pages，发布来源为 **GitHub Actions**；向 `main` 推送会自动部署。需要重新发布时，可在 **Actions → Deploy personal website to GitHub Pages → Run workflow** 手动运行。部署状态见 [Actions](https://github.com/ShengqiZhang/shengqizhang.github.io/actions/workflows/pages.yml)。
+本仓库已启用 GitHub Pages，发布来源为 **GitHub Actions**；向 `main` 推送会自动部署。需要重新发布时，可在 **Actions → Deploy personal website to GitHub Pages → Run workflow** 手动运行。部署状态见 [Actions](https://github.com/ShengqiZhangEIT/shengqizhang.github.io/actions/workflows/pages.yml)。
 
 若迁移到其他仓库，在 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**，再运行工作流。
 
-工作流构建、检查并上传 `dist/`，然后部署到 GitHub Pages。使用 GitHub 根域名必须将仓库命名为 `shengqizhang.github.io`，并置于 `ShengqiZhang` 账号下。部署结果及访问网址显示在工作流和 Pages 设置中。配置方式参考 [GitHub 官方文档](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。
+工作流构建、检查并上传 `dist/`，然后部署到 GitHub Pages。使用 GitHub 根域名必须将仓库命名为 `shengqizhang.github.io`，并置于 `ShengqiZhangEIT` 账号下。部署结果及访问网址显示在工作流和 Pages 设置中。配置方式参考 [GitHub 官方文档](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。
 
 ## 资源来源
 
